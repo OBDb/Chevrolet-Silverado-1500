@@ -1,0 +1,9 @@
+command_id: 7E0.0106
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    2F923010D081D002F
+    2C3064106A00000C5
+  expected_values:
+    SHRTFT1: 25
