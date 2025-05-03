@@ -1,0 +1,20 @@
+generations:
+  - name: "First Generation (GMT800)"
+    start_year: 1999
+    end_year: 2007
+    description: "The first-generation Silverado 1500 established the nameplate as Chevrolet's light-duty full-size pickup, replacing the C/K 1500 series. Available in regular cab, extended cab, and crew cab configurations with various bed lengths, it offered versatility for different uses. Powertrain options included a base 4.3L V6 and several V8 engines (4.8L, 5.3L, and in some cases, a 6.0L), paired with manual or automatic transmissions. The 5.3L V8 was the most popular, balancing power and efficiency. Trim levels ranged from basic Work Truck to luxurious LTZ models, with the Z71 package offering enhanced off-road capability. A significant refresh in 2003 updated the styling and interior features. This generation set the template for modern full-size trucks with improved refinement and capability compared to previous generations while maintaining the ruggedness expected of a work vehicle."
+
+  - name: "Second Generation (GMT900)"
+    start_year: 2007
+    end_year: 2014
+    description: "The redesigned Silverado 1500 featured a more aerodynamic exterior, improved structural rigidity, and significantly updated interiors with better ergonomics and material quality. Engine options continued with a 4.3L V6 base model and 4.8L, 5.3L, and 6.2L V8s, all with improvements for power and efficiency including Active Fuel Management cylinder deactivation on some engines. New features included stability control, side curtain airbags, and available luxury amenities uncommon in trucks of previous eras. Special models included the economical XFE, off-road Z71, and luxury-oriented LTZ. This generation faced challenges including GM's bankruptcy and restructuring, but remained competitive through updates including a 2010 refresh that added features like USB connectivity and enhanced safety equipment."
+
+  - name: "Third Generation (K2XX)"
+    start_year: 2014
+    end_year: 2019
+    description: "The third-generation Silverado 1500 featured distinctive squared-off styling and significant weight reduction through the use of high-strength steel. Powertrain options were thoroughly updated with a new family of EcoTec3 engines, including a 4.3L V6, 5.3L V8, and 6.2L V8, all featuring direct injection, variable valve timing, and cylinder deactivation. The interior offered improved infotainment with the Chevrolet MyLink system and enhanced connectivity options. Capability increased with higher towing and payload ratings, while features like LED lighting, enhanced trailering packages, and advanced safety technology became available. High-end models like the High Country were introduced to compete with luxury trucks from competitors, featuring premium leather, advanced technology, and unique styling elements."
+
+  - name: "Fourth Generation (T1XX)"
+    start_year: 2019
+    end_year: null
+    description: "The current Silverado 1500 features bold, controversial styling with a massive grille and complex body sculpting. Built on the T1XX platform, it's larger yet lighter than its predecessor. Engine options expanded dramatically to include a 2.7L turbocharged four-cylinder, 3.0L Duramax diesel inline-six, and updated 4.3L V6, 5.3L V8, and 6.2L V8 options. Transmission choices evolved to include 8-speed and 10-speed automatics. The cargo bed, dubbed 'Durabed,' offers increased volume and innovative features like the Multi-Flex tailgate. Initial interiors received criticism, but a substantial update for 2022 brought a completely redesigned dashboard with a 13.4-inch touchscreen and 12.3-inch digital instrument cluster on higher trims. Technology advanced significantly with features like Super Cruise hands-free driving capability, Google Built-in infotainment, and enhanced trailering technologies. Special variants include the off-road-focused Trail Boss and ZR2 models, which offer factory lift kits, skid plates, and other terrain-tackling equipment. The fourth-generation Silverado 1500 continues to evolve with enhanced technology and capability while maintaining its position as one of America's best-selling vehicles."
