@@ -1,4 +1,37 @@
 { "commands": [
-
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "000D"}, "freq": 0.25,
+  "signals": [
+    {"id": "SIERRA1500_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "248E"}, "freq": 5,
+  "signals": [
+    {"id": "SIERRA1500_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left Front Tire Pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "248F"}, "freq": 5,
+  "signals": [
+    {"id": "SIERRA1500_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right Front Tire Pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2490"}, "freq": 5,
+  "signals": [
+    {"id": "SIERRA1500_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right Rear Tire Pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2491"}, "freq": 5,
+  "signals": [
+    {"id": "SIERRA1500_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left Rear Tire Pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "C901"}, "freq": 5,
+  "signals": [
+    {"id": "SIERRA1500_TP_P1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 1 Pressure"},
+    {"id": "SIERRA1500_TP_P2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 2 Pressure"},
+    {"id": "SIERRA1500_TP_P3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 3 Pressure"},
+    {"id": "SIERRA1500_TP_P4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 4 Pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "C902"}, "freq": 5,
+  "signals": [
+    {"id": "SIERRA1500_TP_T1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 1 Temp"},
+    {"id": "SIERRA1500_TP_T2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 2 Temp"},
+    {"id": "SIERRA1500_TP_T3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 3 Temp"},
+    {"id": "SIERRA1500_TP_T4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 4 Temp"}
+  ]}
 ]
 }
