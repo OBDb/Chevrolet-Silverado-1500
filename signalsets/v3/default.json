@@ -1,19 +1,19 @@
 { "commands": [
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4051"}, "freq": 0.25,
   "signals": [
-    {"id": "SILVERADO1500_VSS_FL", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Front Left Wheel Speed"}
+    {"id": "SILVERADO1500_VSS_FL", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4052"}, "freq": 0.25,
   "signals": [
-    {"id": "SILVERADO1500_VSS_FR", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Front Right Wheel Speed"}
+    {"id": "SILVERADO1500_VSS_FR", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4053"}, "freq": 0.25,
   "signals": [
-    {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear Left Wheel Speed"}
+    {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear reft wheel speed"}
   ]},
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4054"}, "freq": 0.25,
   "signals": [
-    {"id": "SILVERADO1500_VSS_RR", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear Right Wheel Speed"}
+    {"id": "SILVERADO1500_VSS_RR", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "000D"}, "freq": 0.25,
   "signals": [
@@ -21,33 +21,33 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "248E"}, "freq": 5,
   "signals": [
-    {"id": "SILVERADO1500_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left Front Tire Pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "SILVERADO1500_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "248F"}, "freq": 5,
   "signals": [
-    {"id": "SILVERADO1500_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right Front Tire Pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "SILVERADO1500_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2490"}, "freq": 5,
   "signals": [
-    {"id": "SILVERADO1500_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right Rear Tire Pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "SILVERADO1500_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2491"}, "freq": 5,
   "signals": [
-    {"id": "SILVERADO1500_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left Rear Tire Pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "SILVERADO1500_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "C901"}, "freq": 5,
   "signals": [
-    {"id": "SILVERADO1500_TP_P1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 1 Pressure"},
-    {"id": "SILVERADO1500_TP_P2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 2 Pressure"},
-    {"id": "SILVERADO1500_TP_P3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 3 Pressure"},
-    {"id": "SILVERADO1500_TP_P4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 4 Pressure"}
+    {"id": "SILVERADO1500_TP_1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Tire 1 pressure"},
+    {"id": "SILVERADO1500_TP_2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Tire 2 pressure"},
+    {"id": "SILVERADO1500_TP_3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Tire 3 pressure"},
+    {"id": "SILVERADO1500_TP_4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Tire 4 pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "C902"}, "freq": 5,
   "signals": [
-    {"id": "SILVERADO1500_TP_T1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 1 Temp"},
-    {"id": "SILVERADO1500_TP_T2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 2 Temp"},
-    {"id": "SILVERADO1500_TP_T3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 3 Temp"},
-    {"id": "SILVERADO1500_TP_T4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 4 Temp"}
+    {"id": "SILVERADO1500_TT_1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 1 temperature"},
+    {"id": "SILVERADO1500_TT_2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 2 temperature"},
+    {"id": "SILVERADO1500_TT_3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 3 temperature"},
+    {"id": "SILVERADO1500_TT_4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 4 temperature"}
   ]}
 ]
 }
