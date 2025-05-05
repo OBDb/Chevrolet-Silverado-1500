@@ -9,7 +9,7 @@
   ]},
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4053"}, "freq": 0.25,
   "signals": [
-    {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear reft wheel speed"}
+    {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 1, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4054"}, "freq": 0.25,
   "signals": [
