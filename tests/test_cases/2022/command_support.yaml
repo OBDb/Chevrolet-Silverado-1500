@@ -117,6 +117,7 @@ unsupported_commands_by_ecu:
   - 7DF.0142
   - 7DF.01A6
   7E0:
+  - 7E0.7E8.012F
   - 7E0.7E8.22248E
   - 7E0.7E8.22248F
   - 7E0.7E8.222490
