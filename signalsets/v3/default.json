@@ -1,4 +1,27 @@
 { "commands": [
-
+{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4051"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_FL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4052"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_FR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4053"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4054"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_RR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11A1"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "from": 2023, "to": 2018, "years": [2020, 2021] },
+  "signals": [
+    {"id": "SILVERADO1500_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]}
 ]
 }
