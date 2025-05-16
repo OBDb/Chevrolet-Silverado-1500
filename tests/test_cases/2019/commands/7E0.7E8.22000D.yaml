@@ -4,7 +4,7 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7E80462000D00
   expected_values:
-    CHEVROLET_VSS: 0
+    SILVERADO1500_VSS: 0
 - response: 7E80462000DFF
   expected_values:
-    CHEVROLET_VSS: 255
+    SILVERADO1500_VSS: 255.0
