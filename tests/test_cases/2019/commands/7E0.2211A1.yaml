@@ -1,13 +1,11 @@
 command_id: 7E0.2211A1
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E8056211A10000
   expected_values:
     SILVERADO1500_RUNTM: 0
-- response: 7E8056211A101FC
+- response: 7E8056211A100FF
   expected_values:
-    SILVERADO1500_RUNTM: 508
-- response: 7E8056211A10303
+    SILVERADO1500_RUNTM: 255
+- response: 7E8056211A10C03
   expected_values:
-    SILVERADO1500_RUNTM: 771
+    SILVERADO1500_RUNTM: 3075
