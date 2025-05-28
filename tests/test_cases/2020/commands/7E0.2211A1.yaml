@@ -3,9 +3,9 @@ test_cases:
 - response: 7E8056211A10000
   expected_values:
     SILVERADO1500_RUNTM: 0
-- response: 7E8056211A101FB
+- response: 7E8056211A103FF
   expected_values:
-    SILVERADO1500_RUNTM: 507
-- response: 7E8056211A10306
+    SILVERADO1500_RUNTM: 1023
+- response: 7E8056211A1050D
   expected_values:
-    SILVERADO1500_RUNTM: 774
+    SILVERADO1500_RUNTM: 1293

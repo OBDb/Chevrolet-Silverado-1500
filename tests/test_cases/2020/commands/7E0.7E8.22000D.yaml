@@ -3,6 +3,6 @@ test_cases:
 - response: 7E80462000D00
   expected_values:
     SILVERADO1500_VSS: 0
-- response: 7E80462000D5B
+- response: 7E80462000D63
   expected_values:
-    SILVERADO1500_VSS: 91
+    SILVERADO1500_VSS: 99

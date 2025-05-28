@@ -3,6 +3,6 @@ test_cases:
 - response: 18DAF11103410D00
   expected_values:
     VSS: 0
-- response: 18DAF11103410D65
+- response: 18DAF11103410D7B
   expected_values:
-    VSS: 101
+    VSS: 123
