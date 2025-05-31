@@ -42,6 +42,11 @@ supported_commands_by_ecu:
   - 019E:EXH_RATE
   - 01A2:CYL_RATE
   - 01A6:ODO
+  - DB33.010D:VSS
+  - DB33.012F:FLI
+  - DB33.0131:CLR_DIST
+  - DB33.0142:VPWR
+  - DB33.01A6:ODO
 unsupported_commands_by_ecu:
   760:
   - 760.760.224051:SILVERADO1500_VSS_FL
