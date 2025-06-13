@@ -1,4 +1,20 @@
 { "commands": [
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4051"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_FL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4052"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_FR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4053"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4054"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_VSS_RR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
 { "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4051"}, "freq": 0.25,
   "signals": [
     {"id": "SILVERADO1500_VSS_FL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
@@ -15,13 +31,608 @@
   "signals": [
     {"id": "SILVERADO1500_VSS_RR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11A1"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "11A1"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2021], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "from": 2023, "to": 2018, "years": [2020, 2021] },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "248E"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left Front Tire Pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "248F"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right Front Tire Pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "2490"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right Rear Tire Pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "2491"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left Rear Tire Pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "C901"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_TP_P1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 1 Pressure"},
+    {"id": "SILVERADO1500_TP_P2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 2 Pressure"},
+    {"id": "SILVERADO1500_TP_P3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 3 Pressure"},
+    {"id": "SILVERADO1500_TP_P4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Alternative Tire 4 Pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "C902"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_TP_T1", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 1 Temp"},
+    {"id": "SILVERADO1500_TP_T2", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 2 Temp"},
+    {"id": "SILVERADO1500_TP_T3", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 3 Temp"},
+    {"id": "SILVERADO1500_TP_T4", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Tire 4 Temp"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "434F"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4368"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_CHARGE_AC_VOLT", "path": "Battery", "fmt": { "len": 8, "max": 510, "mul": 2, "unit": "volts" }, "name": "Charger AC voltage"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4369"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_CHARGE_AC_CURR", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "amps" }, "name": "Charger AC current"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "436B"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_CHARGE_HV_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "volts" }, "name": "Charger HV voltage"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "436C"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_CHARGE_HV_CURR", "path": "Battery", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "amps" }, "name": "Charger HV current"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4373"}, "freq": 5,
+  "signals": [
+    {"id": "SILVERADO1500_CHARGE_MODE", "path": "Battery", "name": "Charging mode", "suggestedMetric": "isCharging", "fmt": {"bix": 15, "len": 1, "map": {
+          "0": { "description": "Not charging", "value": "NOT_CHARGING" },
+          "1": { "description": "Charging",     "value": "CHARGING" }
+        }}
+    }
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "43A5"}, "freq": 3600,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CHRG_CNT", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "HV battery charge count"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "43AF"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_SOC_RAW", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "HV battery charge (raw)", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4531"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_CHARGE_LVL", "path": "Battery", "name": "Charging level", "fmt": {"len": 8, "map": {
+          "0": { "description": "Not charging", "value": "NOT_CHARGING" },
+          "1": { "description": "A/C Level 1",  "value": "AC_1" },
+          "2": { "description": "A/C Level 2",  "value": "AC_2" },
+          "3": { "description": "DC",           "value": "DC" }
+        }}
+    }
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "8334"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4181"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU01_VOLT", "path": "Battery.Modules.01", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 01 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4182"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU02_VOLT", "path": "Battery.Modules.02", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 02 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4183"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU03_VOLT", "path": "Battery.Modules.03", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 03 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4184"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU04_VOLT", "path": "Battery.Modules.04", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 04 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4185"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU05_VOLT", "path": "Battery.Modules.05", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 05 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4186"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU06_VOLT", "path": "Battery.Modules.06", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 06 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4187"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU07_VOLT", "path": "Battery.Modules.07", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 07 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4188"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU08_VOLT", "path": "Battery.Modules.08", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 08 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4189"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU09_VOLT", "path": "Battery.Modules.09", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 09 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "418A"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU10_VOLT", "path": "Battery.Modules.10", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 10 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "418B"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU11_VOLT", "path": "Battery.Modules.11", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 11 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "418C"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU12_VOLT", "path": "Battery.Modules.12", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 12 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "418D"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU13_VOLT", "path": "Battery.Modules.13", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 13 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "418E"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU14_VOLT", "path": "Battery.Modules.14", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 14 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "418F"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU15_VOLT", "path": "Battery.Modules.15", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 15 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4190"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU16_VOLT", "path": "Battery.Modules.16", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 16 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4191"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU17_VOLT", "path": "Battery.Modules.17", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 17 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4192"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU18_VOLT", "path": "Battery.Modules.18", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 18 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4193"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU19_VOLT", "path": "Battery.Modules.19", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 19 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4194"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU20_VOLT", "path": "Battery.Modules.20", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 20 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4195"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU21_VOLT", "path": "Battery.Modules.21", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 21 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4196"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU22_VOLT", "path": "Battery.Modules.22", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 22 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4197"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU23_VOLT", "path": "Battery.Modules.23", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 23 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4198"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU24_VOLT", "path": "Battery.Modules.24", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 24 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4199"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU25_VOLT", "path": "Battery.Modules.25", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 25 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "419A"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU26_VOLT", "path": "Battery.Modules.26", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 26 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "419B"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU27_VOLT", "path": "Battery.Modules.27", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 27 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "419C"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU28_VOLT", "path": "Battery.Modules.28", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 28 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "419D"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU29_VOLT", "path": "Battery.Modules.29", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 29 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "419E"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU30_VOLT", "path": "Battery.Modules.30", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 30 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "419F"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU31_VOLT", "path": "Battery.Modules.31", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 31 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4200"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU32_VOLT", "path": "Battery.Modules.32", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 32 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4201"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU33_VOLT", "path": "Battery.Modules.33", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 33 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4202"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU34_VOLT", "path": "Battery.Modules.34", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 34 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4203"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU35_VOLT", "path": "Battery.Modules.35", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 35 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4204"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU36_VOLT", "path": "Battery.Modules.36", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 36 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4205"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU37_VOLT", "path": "Battery.Modules.37", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 37 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4206"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU38_VOLT", "path": "Battery.Modules.38", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 38 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4207"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU39_VOLT", "path": "Battery.Modules.39", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 39 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4208"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU40_VOLT", "path": "Battery.Modules.40", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 40 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4209"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU41_VOLT", "path": "Battery.Modules.41", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 41 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "420A"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU42_VOLT", "path": "Battery.Modules.42", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 42 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "420B"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU43_VOLT", "path": "Battery.Modules.43", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 43 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "420C"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU44_VOLT", "path": "Battery.Modules.44", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 44 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "420D"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU45_VOLT", "path": "Battery.Modules.45", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 45 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "420E"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU46_VOLT", "path": "Battery.Modules.46", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 46 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "420F"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU47_VOLT", "path": "Battery.Modules.47", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 47 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4210"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU48_VOLT", "path": "Battery.Modules.48", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 48 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4211"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU49_VOLT", "path": "Battery.Modules.49", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 49 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4212"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU50_VOLT", "path": "Battery.Modules.50", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 50 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4213"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU51_VOLT", "path": "Battery.Modules.51", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 51 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4214"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU52_VOLT", "path": "Battery.Modules.52", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 52 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4215"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU53_VOLT", "path": "Battery.Modules.53", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 53 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4216"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU54_VOLT", "path": "Battery.Modules.54", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 54 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4217"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU55_VOLT", "path": "Battery.Modules.55", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 55 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4218"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU56_VOLT", "path": "Battery.Modules.56", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 56 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4219"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU57_VOLT", "path": "Battery.Modules.57", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 57 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "421A"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU58_VOLT", "path": "Battery.Modules.58", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 58 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "421B"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU59_VOLT", "path": "Battery.Modules.59", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 59 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "421C"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU60_VOLT", "path": "Battery.Modules.60", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 60 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "421D"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU61_VOLT", "path": "Battery.Modules.61", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 61 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "421E"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU62_VOLT", "path": "Battery.Modules.62", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 62 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "421F"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU63_VOLT", "path": "Battery.Modules.63", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 63 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4220"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU64_VOLT", "path": "Battery.Modules.64", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 64 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4221"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU65_VOLT", "path": "Battery.Modules.65", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 65 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4222"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU66_VOLT", "path": "Battery.Modules.66", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 66 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4223"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU67_VOLT", "path": "Battery.Modules.67", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 67 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4224"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU68_VOLT", "path": "Battery.Modules.68", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 68 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4225"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU69_VOLT", "path": "Battery.Modules.69", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 69 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4226"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU70_VOLT", "path": "Battery.Modules.70", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 70 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4227"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU71_VOLT", "path": "Battery.Modules.71", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 71 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4228"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU72_VOLT", "path": "Battery.Modules.72", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 72 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4229"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU73_VOLT", "path": "Battery.Modules.73", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 73 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "422A"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU74_VOLT", "path": "Battery.Modules.74", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 74 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "422B"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU75_VOLT", "path": "Battery.Modules.75", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 75 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "422C"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU76_VOLT", "path": "Battery.Modules.76", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 76 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "422D"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU77_VOLT", "path": "Battery.Modules.77", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 77 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "422E"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU78_VOLT", "path": "Battery.Modules.78", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 78 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "422F"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU79_VOLT", "path": "Battery.Modules.79", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 79 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4230"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU80_VOLT", "path": "Battery.Modules.80", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 80 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4231"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU81_VOLT", "path": "Battery.Modules.81", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 81 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4232"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU82_VOLT", "path": "Battery.Modules.82", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 82 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4233"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU83_VOLT", "path": "Battery.Modules.83", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 83 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4234"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU84_VOLT", "path": "Battery.Modules.84", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 84 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4235"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU85_VOLT", "path": "Battery.Modules.85", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 85 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4236"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU86_VOLT", "path": "Battery.Modules.86", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 86 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4237"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU87_VOLT", "path": "Battery.Modules.87", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 87 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4238"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU88_VOLT", "path": "Battery.Modules.88", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 88 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4239"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU89_VOLT", "path": "Battery.Modules.89", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 89 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "423A"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU90_VOLT", "path": "Battery.Modules.90", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 90 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "423B"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU91_VOLT", "path": "Battery.Modules.91", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 91 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "423C"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU92_VOLT", "path": "Battery.Modules.92", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 92 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "423D"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU93_VOLT", "path": "Battery.Modules.93", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 93 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "423E"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU94_VOLT", "path": "Battery.Modules.94", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 94 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "423F"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU95_VOLT", "path": "Battery.Modules.95", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 95 voltage"}
+  ]},
+{ "hdr": "7E7", "dbg": true, "cmd": {"22": "4240"}, "freq": 10,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_CMU96_VOLT", "path": "Battery.Modules.96", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 96 voltage"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "0010"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "002F"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_FLI",   "path": "Fuel",    "fmt": { "len": 8, "max": 100,  "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining",  "suggestedMetric": "fuelTankLevel"},
+    {"id": "SILVERADO1500_AUX_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 10,  "div": 100, "unit": "volts"   }, "name": "Battery voltage"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "005E"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Fuel consumption rate"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "11EA"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MIS_5", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.5"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "11EB"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MIS_6", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.6"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1205"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MIS_2", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.2"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1206"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MIS_1", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.1"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1207"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MIS_3", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.3"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1208"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_MIS_4", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.4"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "153E"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20E3"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "2344"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_EO_AP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil absolute pressure sensor"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "2345"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_EOP_ACT", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure, actual"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "34D8"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_DPF_PRESS", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Particulate filter pressure"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "36A7"}, "freq": 30,
+  "signals": [
+    {"id": "SILVERADO1500_AIRFILT_LIFE", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Air filter life remaining"}
+  ]},
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4DC0"}, "freq": 30,
+  "signals": [
+    {"id": "SILVERADO1500_EOL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
+  ]},
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_TFT", "path": "Engine", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
+  ]},
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1B30"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_GEAR", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "1":  { "description": "Neutral",       "value": "NEUTRAL" },
+          "2":  { "description": "Park",          "value": "PARK" },
+          "3":  { "description": "Reverse",       "value": "REVERSE" },
+          "4":  { "description": "Drive, gear 1", "value": "D1" },
+          "5":  { "description": "Drive, gear 2", "value": "D2" },
+          "6":  { "description": "Drive, gear 3", "value": "D3" },
+          "7":  { "description": "Drive, gear 4", "value": "D4" },
+          "8":  { "description": "Drive, gear 5", "value": "D5" },
+          "9":  { "description": "Drive, gear 6", "value": "D6" },
+          "10": { "description": "Drive, gear 7", "value": "D7" },
+          "11": { "description": "Drive, gear 8", "value": "D8" }
+        }}
+    }
+  ]},
+{ "hdr": "DA1A", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "448F"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_ODO", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 156.25, "div": 10000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "DA1D", "dbg": true, "cmd": {"22": "33E5"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "DMCM battery voltage", "description": "From the Drive Motor Control Module."}
+  ]},
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4A7A"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "SILVERADO1500_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "SILVERADO1500_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "SILVERADO1500_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4A7C"}, "freq": 0.25,
+  "signals": [
+    {"id": "SILVERADO1500_BP", "path": "Engine", "fmt": { "len": 8, "max": 11700, "min": -13800, "mul": 100, "add": -1000, "sign": true, "unit": "kilopascal" }, "name": "Brake pressure"}
+  ]},
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4C2D"}, "freq": 0.1,
+  "signals": [
+    {"id": "SILVERADO1500_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720.874, "min": -720.896, "mul": 220, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+  ]},
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4C2F"}, "freq": 0.1,
+  "signals": [
+    {"id": "SILVERADO1500_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"}
+  ]},
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4C30"}, "freq": 0.1,
+  "signals": [
+    {"id": "SILVERADO1500_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longtitudinal acceleration"}
+  ]},
+{ "hdr": "DACB", "dbg": true, "cmd": {"22": "27C6"}, "freq": 0.5,
+  "signals": [
+    {"id": "SILVERADO1500_SOC_HD", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "SoC (high res)", "suggestedMetric": "stateOfCharge", "description": "A high resolution measure of the battery pack's remaining state of charge."}
+  ]},
+{ "hdr": "DACB", "dbg": true, "cmd": {"22": "2AF5"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_HVBAT_C_V_AVG", "path": "Battery", "fmt": {           "len": 16, "max": 6.55, "div": 10000, "unit": "volts" }, "name": "Cell voltage (avg)"},
+    {"id": "SILVERADO1500_HVBAT_C_V_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 6.55, "div": 10000, "unit": "volts" }, "name": "Cell voltage (min)"},
+    {"id": "SILVERADO1500_HVBAT_C_V_MAX", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 6.55, "div": 10000, "unit": "volts" }, "name": "Cell voltage (max)"}
+  ]},
+{ "hdr": "DACB", "dbg": true, "cmd": {"22": "2B43"}, "freq": 1,
+  "signals": [
+    {"id": "SILVERADO1500_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "SoC", "suggestedMetric": "stateOfCharge"}
   ]}
 ]
 }
