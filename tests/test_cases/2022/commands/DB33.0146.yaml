@@ -1,5 +1,8 @@
 command_id: DB33.0146
 test_cases:
-- response: 18DAF11103414649
-  expected_values:
+- expected_values:
+    AAT: 24
+  response: 18DAF11103414640
+- expected_values:
     AAT: 33
+  response: 18DAF11103414649
