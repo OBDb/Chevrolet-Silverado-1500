@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22000D
 test_cases:
-- response: 7E80462000D00
-  expected_values:
+- expected_values:
     SILVERADO1500_VSS: 0
-- response: 7E80462000D63
-  expected_values:
-    SILVERADO1500_VSS: 99
+  response: 7E80462000D00
+- expected_values:
+    SILVERADO1500_VSS: 121
+  response: 7E80462000D79
