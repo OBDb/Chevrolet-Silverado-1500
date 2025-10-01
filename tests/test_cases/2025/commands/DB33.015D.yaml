@@ -1,0 +1,8 @@
+command_id: DB33.015D
+test_cases:
+- expected_values:
+    FUEL_TIMING: -210
+  response: 18DAF11104415D6883
+- expected_values:
+    FUEL_TIMING: -210
+  response: 18DAF11104415D6903
