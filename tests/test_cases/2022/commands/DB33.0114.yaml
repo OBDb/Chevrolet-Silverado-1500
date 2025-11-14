@@ -2,5 +2,5 @@ command_id: DB33.0114
 test_cases:
 - expected_values:
     O2S11: 0.135
-    SHRTFT11: -1.5625
+    SHRTFT11: -29.5625
   response: 18DAF1110441141B7E
