@@ -1,17 +1,17 @@
 { "commands": [
-{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4051"}, "freq": 0.25,
+{ "hdr": "760", "rax": "760", "cmd": {"22": "4051"}, "freq": 0.25, "dbg": true,
   "signals": [
     {"id": "SILVERADO1500_VSS_FL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4052"}, "freq": 0.25,
+{ "hdr": "760", "rax": "760", "cmd": {"22": "4052"}, "freq": 0.25, "dbg": true,
   "signals": [
     {"id": "SILVERADO1500_VSS_FR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4053"}, "freq": 0.25,
+{ "hdr": "760", "rax": "760", "cmd": {"22": "4053"}, "freq": 0.25, "dbg": true,
   "signals": [
     {"id": "SILVERADO1500_VSS_RL", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "760", "dbg": true, "cmd": {"22": "4054"}, "freq": 0.25,
+{ "hdr": "760", "rax": "760", "cmd": {"22": "4054"}, "freq": 0.25, "dbg": true,
   "signals": [
     {"id": "SILVERADO1500_VSS_RR", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
