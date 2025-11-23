@@ -331,6 +331,7 @@ unsupported_commands_by_ecu:
   - DACB.222AF5
   - DACB.222B43
   "DB33":
+  - DB33.0106:SHRTFT1
   - DB33.0111:TP
   - DB33.011F:RUNTM
   - DB33.0145:TP_R
