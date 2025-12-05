@@ -4,5 +4,5 @@ test_cases:
     ECT: 30
   response: 18DAF11103410546
 - expected_values:
-    ECT: 100
-  response: 18DAF1110341058C
+    ECT: 101
+  response: 18DAF1110341058D
