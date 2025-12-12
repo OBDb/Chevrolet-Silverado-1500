@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22000D
+test_cases:
+- expected_values:
+    SILVERADO1500_VSS: 0
+  response: 7E80462000D00
+- expected_values:
+    SILVERADO1500_VSS: 15
+  response: 7E80462000D0F
+- expected_values:
+    SILVERADO1500_VSS: 25
+  response: 7E80462000D19
+- expected_values:
+    SILVERADO1500_VSS: 33
+  response: 7E80462000D21
+- expected_values:
+    SILVERADO1500_VSS: 41
+  response: 7E80462000D29
+- expected_values:
+    SILVERADO1500_VSS: 45
+  response: 7E80462000D2D
+- expected_values:
+    SILVERADO1500_VSS: 69
+  response: 7E80462000D45
+- expected_values:
+    SILVERADO1500_VSS: 85
+  response: 7E80462000D55
+- expected_values:
+    SILVERADO1500_VSS: 94
+  response: 7E80462000D5E
+- expected_values:
+    SILVERADO1500_VSS: 102
+  response: 7E80462000D66
