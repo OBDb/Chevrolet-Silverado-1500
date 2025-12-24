@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     APP_E: 9.80392
   response: 7E803414A19
+- expected_values:
+    APP_E: 10.19608
+  response: 7E803414A1A
