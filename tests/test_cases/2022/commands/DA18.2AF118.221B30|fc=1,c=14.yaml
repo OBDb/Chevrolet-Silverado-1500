@@ -1,0 +1,32 @@
+command_id: DA18.2AF118.221B30|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: -1
+  response: 142AF11804621B3002
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 1
+  response: 142AF11804621B3004
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 2
+  response: 142AF11804621B3005
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 3
+  response: 142AF11804621B3006
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 5
+  response: 142AF11804621B3008
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 6
+  response: 142AF11804621B3009
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 7
+  response: 142AF11804621B300A
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 8
+  response: 142AF11804621B300B
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 9
+  response: 142AF11804621B300C
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 10
+  response: 142AF11804621B300D
