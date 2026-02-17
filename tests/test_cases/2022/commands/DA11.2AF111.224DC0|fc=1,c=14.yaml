@@ -1,5 +1,8 @@
 command_id: DA11.2AF111.224DC0|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_EO_LIFE_REMAINING: 33.72549
+  response: 142AF11104624DC056
+- expected_values:
     SILVERADO1500_EO_LIFE_REMAINING: 34.11765
   response: 142AF11104624DC057
