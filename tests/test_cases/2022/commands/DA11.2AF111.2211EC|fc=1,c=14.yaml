@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.2211EC|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_MISFIRES_C7_CUR: 0
+  response: 142AF111046211EC00
+- expected_values:
+    SILVERADO1500_MISFIRES_C7_CUR: 0.39216
+  response: 142AF111046211EC01
+- expected_values:
+    SILVERADO1500_MISFIRES_C7_CUR: 1.17647
+  response: 142AF111046211EC03
