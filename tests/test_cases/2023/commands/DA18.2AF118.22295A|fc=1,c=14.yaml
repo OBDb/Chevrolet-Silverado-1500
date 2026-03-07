@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     SILVERADO1500_TF_T_FLTED: 15
   response: 142AF1180462295A37
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 31
+  response: 142AF1180462295A47
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 32
+  response: 142AF1180462295A48
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 33
+  response: 142AF1180462295A49
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 34
+  response: 142AF1180462295A4A
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 35
+  response: 142AF1180462295A4B
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 37
+  response: 142AF1180462295A4D
