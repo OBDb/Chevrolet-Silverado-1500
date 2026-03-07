@@ -1,0 +1,20 @@
+command_id: DA11.2AF111.22328A|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_BP_DES: 98.8
+  response: 142AF1110562328A2698
+- expected_values:
+    SILVERADO1500_BP_DES: 98.81
+  response: 142AF1110562328A2699
+- expected_values:
+    SILVERADO1500_BP_DES: 99
+  response: 142AF1110562328A26AC
+- expected_values:
+    SILVERADO1500_BP_DES: 99.15
+  response: 142AF1110562328A26BB
+- expected_values:
+    SILVERADO1500_BP_DES: 99.38
+  response: 142AF1110562328A26D2
+- expected_values:
+    SILVERADO1500_BP_DES: 99.42
+  response: 142AF1110562328A26D6
