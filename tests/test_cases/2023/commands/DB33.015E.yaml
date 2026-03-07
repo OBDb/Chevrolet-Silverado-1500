@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FUEL_RATE: 1.4
   response: 18DAF11104415E001C
+- expected_values:
+    FUEL_RATE: 11.1
+  response: 18DAF11104415E00DE
