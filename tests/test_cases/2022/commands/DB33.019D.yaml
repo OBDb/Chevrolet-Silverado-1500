@@ -4,3 +4,7 @@ test_cases:
     FUEL_RATE_ALT: 0.36
     VFUEL_RATE: 0.36
   response: 18DAF11106419D00120012
+- expected_values:
+    FUEL_RATE_ALT: 0.38
+    VFUEL_RATE: 0.38
+  response: 18DAF11106419D00130013
