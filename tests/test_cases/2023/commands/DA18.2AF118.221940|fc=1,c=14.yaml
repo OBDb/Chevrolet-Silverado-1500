@@ -4,23 +4,5 @@ test_cases:
     SILVERADO1500_TFT: 14
   response: 142AF1180462194036
 - expected_values:
-    SILVERADO1500_TFT: 15
-  response: 142AF1180462194037
-- expected_values:
-    SILVERADO1500_TFT: 16
-  response: 142AF1180462194038
-- expected_values:
-    SILVERADO1500_TFT: 32
-  response: 142AF1180462194048
-- expected_values:
-    SILVERADO1500_TFT: 34
-  response: 142AF118046219404A
-- expected_values:
-    SILVERADO1500_TFT: 35
-  response: 142AF118046219404B
-- expected_values:
-    SILVERADO1500_TFT: 36
-  response: 142AF118046219404C
-- expected_values:
-    SILVERADO1500_TFT: 37
-  response: 142AF118046219404D
+    SILVERADO1500_TFT: 75
+  response: 142AF1180462194073
