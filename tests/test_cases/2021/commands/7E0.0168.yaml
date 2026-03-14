@@ -64,3 +64,19 @@ test_cases:
   response: |-
     7E81009416807505552
     7E821282828AAAAAAAA
+- expected_values:
+    IAT_11: 57
+    IAT_11_SUP: 1
+    IAT_12: 62
+    IAT_12_SUP: 1
+    IAT_13: 59
+    IAT_13_SUP: 1
+    IAT_21: 0
+    IAT_21_SUP: 0
+    IAT_22: 0
+    IAT_22_SUP: 0
+    IAT_23: 0
+    IAT_23_SUP: 0
+  response: |-
+    7E81009416807616663
+    7E821282828AAAAAAAA
