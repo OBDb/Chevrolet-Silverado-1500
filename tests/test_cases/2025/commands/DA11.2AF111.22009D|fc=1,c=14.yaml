@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.22009D|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_TOTAL_FUEL_CONSUMPTION_RATE: 0.18
+  response: 142AF1110762009D00090009

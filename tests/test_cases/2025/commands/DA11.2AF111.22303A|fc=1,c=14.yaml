@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.22303A|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_DPF_EGT_1: 156.1
+  response: 142AF1110562303A07A9
+- expected_values:
+    SILVERADO1500_DPF_EGT_1: 157.8
+  response: 142AF1110562303A07BA
+- expected_values:
+    SILVERADO1500_DPF_EGT_1: 158.8
+  response: 142AF1110562303A07C4

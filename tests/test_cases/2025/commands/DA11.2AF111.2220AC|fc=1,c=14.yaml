@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.2220AC|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_FUEL_INJECTION_C1: 1.153
+  response: 142AF111056220AC0481
+- expected_values:
+    SILVERADO1500_FUEL_INJECTION_C1: 1.159
+  response: 142AF111056220AC0487
+- expected_values:
+    SILVERADO1500_FUEL_INJECTION_C1: 1.164
+  response: 142AF111056220AC048C
