@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     SILVERADO1500_CURRENT_GEAR: -1
   response: 142AF11804621B3002
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 0
+  response: 142AF11804621B3003
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 1
+  response: 142AF11804621B3004
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 2
+  response: 142AF11804621B3005
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 5
+  response: 142AF11804621B3008
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR: 6
+  response: 142AF11804621B3009

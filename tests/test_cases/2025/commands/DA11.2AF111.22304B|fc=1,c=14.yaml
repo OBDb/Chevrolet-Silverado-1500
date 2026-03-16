@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     SILVERADO1500_DPF_NUMBER_OF_COMPLETED_REGENS: 30
   response: 142AF1110562304B001E
+- expected_values:
+    SILVERADO1500_DPF_NUMBER_OF_COMPLETED_REGENS: 30
+  response: |-
+    22304B
+    142AF1110562304B001E
