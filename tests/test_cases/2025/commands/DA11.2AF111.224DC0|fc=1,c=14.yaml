@@ -3,3 +3,11 @@ test_cases:
 - expected_values:
     SILVERADO1500_EO_LIFE_REMAINING: 73.33333
   response: 142AF11104624DC0BB
+- expected_values:
+    SILVERADO1500_EO_LIFE_REMAINING: 73.72549
+  response: 142AF11104624DC0BC
+- expected_values:
+    SILVERADO1500_EO_LIFE_REMAINING: 73.33333
+  response: |-
+    224DC0
+    142AF11104624DC0BB

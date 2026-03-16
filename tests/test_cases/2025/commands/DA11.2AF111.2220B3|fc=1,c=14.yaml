@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     SILVERADO1500_FUEL_INJECTION_C8: 0
   response: 142AF111056220B30000
+- expected_values:
+    SILVERADO1500_FUEL_INJECTION_C8: 0
+  response: |-
+    2220B3
+    142AF111056220B30000

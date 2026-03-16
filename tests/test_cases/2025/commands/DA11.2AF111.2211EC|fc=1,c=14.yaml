@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     SILVERADO1500_MISFIRES_C7_CUR: 0
   response: 142AF111046211EC00
+- expected_values:
+    SILVERADO1500_MISFIRES_C7_CUR: 0
+  response: |-
+    2211EC
+    142AF111046211EC00

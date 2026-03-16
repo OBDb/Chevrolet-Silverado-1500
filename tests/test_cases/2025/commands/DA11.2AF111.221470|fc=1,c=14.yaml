@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     SILVERADO1500_EOP: 0
   response: 142AF1110462147000
+- expected_values:
+    SILVERADO1500_EOP: 0
+  response: |-
+    221470
+    142AF1110462147000
