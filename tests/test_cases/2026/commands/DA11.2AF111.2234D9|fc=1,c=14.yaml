@@ -1,0 +1,14 @@
+command_id: DA11.2AF111.2234D9|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_DPF_CORRECTED_PRES: 3.38
+  response: 142AF111056234D90152
+- expected_values:
+    SILVERADO1500_DPF_CORRECTED_PRES: 3.4
+  response: 142AF111056234D90154
+- expected_values:
+    SILVERADO1500_DPF_CORRECTED_PRES: 3.43
+  response: 142AF111056234D90157
+- expected_values:
+    SILVERADO1500_DPF_CORRECTED_PRES: 3.46
+  response: 142AF111056234D9015A
