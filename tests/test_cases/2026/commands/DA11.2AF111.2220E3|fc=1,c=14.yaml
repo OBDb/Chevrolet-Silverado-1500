@@ -1,0 +1,14 @@
+command_id: DA11.2AF111.2220E3|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_BP_ACT: 7.47
+  response: 142AF111056220E302EB
+- expected_values:
+    SILVERADO1500_BP_ACT: 7.48
+  response: 142AF111056220E302EC
+- expected_values:
+    SILVERADO1500_BP_ACT: 7.58
+  response: 142AF111056220E302F6
+- expected_values:
+    SILVERADO1500_BP_ACT: 7.61
+  response: 142AF111056220E302F9
