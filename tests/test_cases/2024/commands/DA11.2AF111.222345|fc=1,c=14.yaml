@@ -1,0 +1,14 @@
+command_id: DA11.2AF111.222345|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_EOP_ACT: 344
+  response: 142AF1110462234556
+- expected_values:
+    SILVERADO1500_EOP_ACT: 360
+  response: 142AF111046223455A
+- expected_values:
+    SILVERADO1500_EOP_ACT: 364
+  response: 142AF111046223455B
+- expected_values:
+    SILVERADO1500_EOP_ACT: 368
+  response: 142AF111046223455C
