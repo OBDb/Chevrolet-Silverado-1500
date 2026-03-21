@@ -1,6 +1,30 @@
 command_id: DA18.2AF118.22295A|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_TF_T_FLTED: 17
+  response: 142AF1180462295A39
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 18
+  response: 142AF1180462295A3A
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 19
+  response: 142AF1180462295A3B
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 20
+  response: 142AF1180462295A3C
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 21
+  response: 142AF1180462295A3D
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 22
+  response: 142AF1180462295A3E
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 23
+  response: 142AF1180462295A3F
+- expected_values:
+    SILVERADO1500_TF_T_FLTED: 24
+  response: 142AF1180462295A40
+- expected_values:
     SILVERADO1500_TF_T_FLTED: 25
   response: 142AF1180462295A41
 - expected_values:

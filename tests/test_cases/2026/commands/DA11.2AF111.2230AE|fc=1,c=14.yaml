@@ -1,6 +1,12 @@
 command_id: DA11.2AF111.2230AE|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 11
+  response: 142AF111046230AE33
+- expected_values:
+    SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 12
+  response: 142AF111046230AE34
+- expected_values:
     SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 15
   response: 142AF111046230AE37
 - expected_values:
@@ -12,3 +18,15 @@ test_cases:
 - expected_values:
     SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 18
   response: 142AF111046230AE3A
+- expected_values:
+    SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 19
+  response: 142AF111046230AE3B
+- expected_values:
+    SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 36
+  response: 142AF111046230AE4C
+- expected_values:
+    SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 41
+  response: 142AF111046230AE51
+- expected_values:
+    SILVERADO1500_CHARGE_AIR_COOLER_T_SNS_2: 42
+  response: 142AF111046230AE52
