@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_FUEL_T: 27
   response: 142AF1110462321836
+- expected_values:
+    SILVERADO1500_FUEL_T: 30.5
+  response: 142AF111046232183D
+- expected_values:
+    SILVERADO1500_FUEL_T: 31
+  response: 142AF111046232183E
