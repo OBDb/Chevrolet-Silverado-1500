@@ -23,6 +23,11 @@ test_cases:
 - expected_values:
     SILVERADO1500_DPF_EGT_4: -40
   response: |-
+    142AF111100C620078070759
+    142AF1112107B00882000055
+- expected_values:
+    SILVERADO1500_DPF_EGT_4: -40
+  response: |-
     142AF111100C620078070DC8
     142AF111210DB409C5000055
 - expected_values:
@@ -30,11 +35,6 @@ test_cases:
   response: |-
     142AF111100C620078070DCF
     142AF11121067304AE000055
-- expected_values:
-    SILVERADO1500_DPF_EGT_4: -40
-  response: |-
-    142AF111100C620078070E6B
-    142AF111210D6107CE000055
 - expected_values:
     SILVERADO1500_DPF_EGT_4: -40
   response: |-
