@@ -4,11 +4,11 @@ test_cases:
     SILVERADO1500_DPF_EGT_1: 110.1
   response: 142AF1110562303A05DD
 - expected_values:
+    SILVERADO1500_DPF_EGT_1: 114.1
+  response: 142AF1110562303A0605
+- expected_values:
     SILVERADO1500_DPF_EGT_1: 214.5
   response: 142AF1110562303A09F1
-- expected_values:
-    SILVERADO1500_DPF_EGT_1: 222.5
-  response: 142AF1110562303A0A41
 - expected_values:
     SILVERADO1500_DPF_EGT_1: 310.8
   response: 142AF1110562303A0DB4
