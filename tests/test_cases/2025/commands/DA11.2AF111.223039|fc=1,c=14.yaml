@@ -1,6 +1,9 @@
 command_id: DA11.2AF111.223039|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_DPF_DIST_SINCE_LAST_REGEN: 91
+  response: 142AF11105623039005B
+- expected_values:
     SILVERADO1500_DPF_DIST_SINCE_LAST_REGEN: 149
   response: 142AF111056230390095
 - expected_values:
