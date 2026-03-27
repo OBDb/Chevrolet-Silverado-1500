@@ -1,6 +1,9 @@
 command_id: DA11.2AF111.223218|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_FUEL_T: 33.5
+  response: 142AF1110462321843
+- expected_values:
     SILVERADO1500_FUEL_T: 35.5
   response: 142AF1110462321847
 - expected_values:

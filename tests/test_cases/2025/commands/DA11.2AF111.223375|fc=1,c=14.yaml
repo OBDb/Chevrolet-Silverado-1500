@@ -8,6 +8,9 @@ test_cases:
   response: 142AF1110562337502B2
 - expected_values:
     SILVERADO1500_DPF_REGEN_STS: 2
+  response: 142AF1110562337502BC
+- expected_values:
+    SILVERADO1500_DPF_REGEN_STS: 2
   response: 142AF1110562337502F8
 - expected_values:
     SILVERADO1500_DPF_REGEN_STS: 2
