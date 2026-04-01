@@ -1,8 +1,8 @@
 command_id: DA11.2AF111.22005C|fc=1,c=14
 test_cases:
 - expected_values:
-    SILVERADO1500_EOT: 13
-  response: 142AF1110462005C35
+    SILVERADO1500_EOT: 7
+  response: 142AF1110462005C2F
 - expected_values:
     SILVERADO1500_EOT: 113
   response: 142AF1110462005C99
