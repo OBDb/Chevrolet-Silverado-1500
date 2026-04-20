@@ -210,6 +210,7 @@ supported_commands_by_ecu:
   - DB33.0142:VPWR
   - DB33.0143:LOAD_ABS
   - DB33.0144:EQ_RAT
+  - DB33.0145:TP_R
   - DB33.0146:AAT
   - DB33.0147:TP_B
   - DB33.0149:APP_D
@@ -373,5 +374,3 @@ unsupported_commands_by_ecu:
   - DACB.2227C6
   - DACB.222AF5
   - DACB.222B43
-  "DB33":
-  - DB33.0145:TP_R
