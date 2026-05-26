@@ -108,6 +108,7 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 7E3.7EB.010A
+  - 7E3.7EB.0131
 unsupported_commands_by_ecu:
   "760":
   - 760.760.224051
