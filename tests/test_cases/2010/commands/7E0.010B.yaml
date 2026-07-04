@@ -10,5 +10,8 @@ test_cases:
     MAP: 39
   response: 7E803410B27
 - expected_values:
+    MAP: 40
+  response: 7E803410B28
+- expected_values:
     MAP: 41
   response: 7E803410B29
