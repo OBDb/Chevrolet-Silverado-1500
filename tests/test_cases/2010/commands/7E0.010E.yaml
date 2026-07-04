@@ -4,6 +4,9 @@ test_cases:
     SPARKADV: 7.5
   response: 7E803410E8F
 - expected_values:
+    SPARKADV: 12.5
+  response: 7E803410E99
+- expected_values:
     SPARKADV: 16.5
   response: 7E803410EA1
 - expected_values:
