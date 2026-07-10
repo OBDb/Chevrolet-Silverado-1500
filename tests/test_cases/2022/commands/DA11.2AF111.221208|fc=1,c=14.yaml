@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_MISFIRES_C4_CUR: 0.78431
   response: 142AF1110462120802
+- expected_values:
+    SILVERADO1500_MISFIRES_C4_CUR: 1.56863
+  response: 142AF1110462120804
