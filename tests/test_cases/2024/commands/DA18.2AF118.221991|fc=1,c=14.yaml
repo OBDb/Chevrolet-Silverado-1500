@@ -1,0 +1,20 @@
+command_id: DA18.2AF118.221991|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS: 22.375
+  response: 142AF1180562199100B3
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS: 25.125
+  response: 142AF1180562199100C9
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS: 26.875
+  response: 142AF1180562199100D7
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS: 30.875
+  response: 142AF1180562199100F7
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS: 31.125
+  response: 142AF1180562199100F9
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS: 35
+  response: 142AF118056219910118
