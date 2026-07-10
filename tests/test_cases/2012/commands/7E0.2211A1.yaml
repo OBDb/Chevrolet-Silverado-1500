@@ -1,0 +1,17 @@
+command_id: 7E0.2211A1
+test_cases:
+- expected_values:
+    SILVERADO1500_RUNTM: 0
+  response: 7E8056211A10000
+- expected_values:
+    SILVERADO1500_RUNTM: 7
+  response: 7E8056211A10007
+- expected_values:
+    SILVERADO1500_RUNTM: 37
+  response: 7E8056211A10025
+- expected_values:
+    SILVERADO1500_RUNTM: 69
+  response: 7E8056211A10045
+- expected_values:
+    SILVERADO1500_RUNTM: 111
+  response: 7E8056211A1006F
