@@ -1,0 +1,8 @@
+command_id: DB33.0161
+test_cases:
+- expected_values:
+    TQ_DD: 2
+  response: 18DAF1110341617F
+- expected_values:
+    TQ_DD: 5
+  response: 18DAF11103416182

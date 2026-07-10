@@ -1,0 +1,8 @@
+command_id: DB33.01A2
+test_cases:
+- expected_values:
+    CYL_RATE: 4.375
+  response: 18DAF1110441A2008C
+- expected_values:
+    CYL_RATE: 7.375
+  response: 18DAF1110441A200EC
