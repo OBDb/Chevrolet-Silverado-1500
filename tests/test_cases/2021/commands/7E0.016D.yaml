@@ -1,0 +1,114 @@
+command_id: 7E0.016D
+test_cases:
+- expected_values:
+    FRP_A: 5050
+    FRP_A_CMD: 4690
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 5050
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D1301D501
+    7E821F900000001F900
+- expected_values:
+    FRP_A: 5150
+    FRP_A_CMD: 4830
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 5150
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D1301E302
+    7E82103000000020300
+- expected_values:
+    FRP_A: 4940
+    FRP_A_CMD: 5000
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 4920
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: 25
+    FRT_A_SUP: 1
+    FRT_B: 25
+    FRT_B_SUP: 1
+  response: |-
+    7E8100D416D3701F401
+    7E821EE41000001EC41
+- expected_values:
+    FRP_A: 11170
+    FRP_A_CMD: 11300
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 11140
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: 12
+    FRT_A_SUP: 1
+    FRT_B: 12
+    FRT_B_SUP: 1
+  response: |-
+    7E8100D416D37046A04
+    7E8215D340000045A34
+- expected_values:
+    FRP_A: 39940
+    FRP_A_CMD: 39990
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 39330
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: 37
+    FRT_A_SUP: 1
+    FRT_B: 65
+    FRT_B_SUP: 1
+  response: |-
+    7E8100D416D370F9F0F
+    7E8219A4D00000F5D69
+- expected_values:
+    FRP_A: 39940
+    FRP_A_CMD: 39990
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 38310
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: 44
+    FRT_A_SUP: 1
+    FRT_B: 85
+    FRT_B_SUP: 1
+  response: |-
+    7E8100D416D370F9F0F
+    7E8219A5400000EF77D
+- expected_values:
+    FRP_A: 40020
+    FRP_A_CMD: 40000
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 39510
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 1
+    FRT_A: 37
+    FRT_A_SUP: 1
+    FRT_B: 65
+    FRT_B_SUP: 1
+  response: |-
+    7E8100D416D370FA00F
+    7E821A24D00000F6F69

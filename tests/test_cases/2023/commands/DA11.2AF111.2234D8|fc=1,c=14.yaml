@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.2234D8|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_DPF_PRES: 0
+  response: 142AF111056234D80000
+- expected_values:
+    SILVERADO1500_DPF_PRES: 2.19
+  response: 142AF111056234D800DB
+- expected_values:
+    SILVERADO1500_DPF_PRES: 10.45
+  response: 142AF111056234D80415
