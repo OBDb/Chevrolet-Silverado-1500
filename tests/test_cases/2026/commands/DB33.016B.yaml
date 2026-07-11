@@ -1,0 +1,16 @@
+command_id: DB33.016B
+test_cases:
+- expected_values:
+    EGRTA: 10
+    EGRTA_SUP: 0
+    EGRTA_WR_SUP: 1
+    EGRTB: 34
+    EGRTB_SUP: 0
+    EGRTB_WR_SUP: 0
+    EGRTC: 34
+    EGRTC_SUP: 0
+    EGRTC_WR_SUP: 0
+    EGRTD: 34
+    EGRTD_SUP: 0
+    EGRTD_WR_SUP: 0
+  response: 18DAF11107416B10324A4A4A
