@@ -1,0 +1,66 @@
+command_id: DB33.0169
+test_cases:
+- expected_values:
+    EGR_A_ACT: 8.62745
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 8.62745
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: 0.78125
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 1
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 1
+    EGR_B_ERR: 0
+    EGR_B_ERR_SUP: 1
+  response: |-
+    18DAF111100941693F161681
+    18DAF1112100008055555555
+- expected_values:
+    EGR_A_ACT: 10.19608
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 9.80392
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: 3.90625
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 1
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 1
+    EGR_B_ERR: 0
+    EGR_B_ERR_SUP: 1
+  response: |-
+    18DAF111100941693F191A85
+    18DAF1112100008055555555
+- expected_values:
+    EGR_A_ACT: 10.19608
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 10.19608
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: 2.34375
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 1
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 1
+    EGR_B_ERR: 0
+    EGR_B_ERR_SUP: 1
+  response: |-
+    18DAF111100941693F1A1A83
+    18DAF1112100008055555555
+- expected_values:
+    EGR_A_ACT: 10.98039
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 10.58824
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: 3.125
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 1
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 1
+    EGR_B_ERR: 0
+    EGR_B_ERR_SUP: 1
+  response: |-
+    18DAF111100941693F1B1C84
+    18DAF1112100008055555555
