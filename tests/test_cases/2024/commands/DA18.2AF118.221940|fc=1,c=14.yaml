@@ -1,5 +1,17 @@
 command_id: DA18.2AF118.221940|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_TFT: 28
+  response: 142AF1180462194044
+- expected_values:
+    SILVERADO1500_TFT: 29
+  response: 142AF1180462194045
+- expected_values:
+    SILVERADO1500_TFT: 30
+  response: 142AF1180462194046
+- expected_values:
+    SILVERADO1500_TFT: 31
+  response: 142AF1180462194047
+- expected_values:
     SILVERADO1500_TFT: 39
   response: 142AF118046219404F

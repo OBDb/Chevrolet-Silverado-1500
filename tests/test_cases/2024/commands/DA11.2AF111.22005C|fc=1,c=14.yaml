@@ -4,14 +4,5 @@ test_cases:
     SILVERADO1500_EOT: 47
   response: 142AF1110462005C57
 - expected_values:
-    SILVERADO1500_EOT: 49
-  response: 142AF1110462005C59
-- expected_values:
-    SILVERADO1500_EOT: 50
-  response: 142AF1110462005C5A
-- expected_values:
-    SILVERADO1500_EOT: 51
-  response: 142AF1110462005C5B
-- expected_values:
-    SILVERADO1500_EOT: 53
-  response: 142AF1110462005C5D
+    SILVERADO1500_EOT: 71
+  response: 142AF1110462005C6F
