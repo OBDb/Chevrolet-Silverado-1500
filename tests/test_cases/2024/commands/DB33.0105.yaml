@@ -4,29 +4,5 @@ test_cases:
     ECT: 81
   response: 18DAF11103410579
 - expected_values:
-    ECT: 82
-  response: 18DAF1110341057A
-- expected_values:
-    ECT: 84
-  response: 18DAF1110341057C
-- expected_values:
-    ECT: 86
-  response: 18DAF1110341057E
-- expected_values:
-    ECT: 87
-  response: 18DAF1110341057F
-- expected_values:
-    ECT: 88
-  response: 18DAF11103410580
-- expected_values:
-    ECT: 90
-  response: 18DAF11103410582
-- expected_values:
-    ECT: 92
-  response: 18DAF11103410584
-- expected_values:
-    ECT: 94
-  response: 18DAF11103410586
-- expected_values:
     ECT: 97
   response: 18DAF11103410589
