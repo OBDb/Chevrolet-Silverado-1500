@@ -22,5 +22,8 @@ test_cases:
     SILVERADO1500_EOP_ACT: 292
   response: 142AF1110462234549
 - expected_values:
+    SILVERADO1500_EOP_ACT: 304
+  response: 142AF111046223454C
+- expected_values:
     SILVERADO1500_EOP_ACT: 416
   response: 142AF1110462234568
