@@ -1,5 +1,6 @@
 { "ecu": [
-    { "hdr": "7E0", "type": "engine" }
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E2", "type": "transmission" }
   ],
   "commands": [
 { "hdr": "7E0", "cmd": {"22": "11A1"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2013, 2015], "from": 2023 },
