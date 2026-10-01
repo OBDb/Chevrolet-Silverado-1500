@@ -1,0 +1,5 @@
+command_id: 241.641.225008
+test_cases:
+- expected_values:
+    SILVERADO1500_TP_RL: 250.25
+  response: 641056250080FA4
