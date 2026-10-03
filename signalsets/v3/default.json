@@ -5,35 +5,35 @@
     { "hdr": "DA40", "rax": "40",  "type": "bodyControl" }
   ],
   "commands": [
-{ "hdr": "241", "rax": "641", "cmd": {"22": "4005"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4005"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "4006"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4006"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "4007"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4007"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "4008"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4008"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "5005"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5005"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "cmd": {"22": "5008"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5008"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
@@ -45,11 +45,11 @@
   "signals": [
     {"id": "SILVERADO1500_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_EOP_2", "path": "Engine", "fmt": { "len": 8, "max": 131.39, "min": -21.6, "mul": 3, "div": 5, "add": -21.6, "nullmax": 131.39, "unit": "psi" }, "name": "Engine oil pressure 2", "description": "Reads 0 psi at the sensor's zero-pressure floor, raw 36; the 0.6 psi slope is not yet checked against a gauge."}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "199A"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021], "from": 2023 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "199A"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},

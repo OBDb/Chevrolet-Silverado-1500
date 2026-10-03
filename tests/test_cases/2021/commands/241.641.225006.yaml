@@ -1,0 +1,11 @@
+command_id: 241.641.225006
+test_cases:
+- expected_values:
+    SILVERADO1500_TP_FR: 228.25
+  response: '641056250060E44'
+- expected_values:
+    SILVERADO1500_TP_FR: 231
+  response: '641056250060E70'
+- expected_values:
+    SILVERADO1500_TP_FR: 233.75
+  response: 641056250060E9C
