@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22328A|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_BP_DES_7E0: 0
+  response: 7E80562328A0000

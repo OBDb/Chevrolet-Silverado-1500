@@ -1,0 +1,11 @@
+command_id: 7E2.7EA.221991|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS_7E2: 7.125
+  response: 7EA056219910039
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS_7E2: 11.375
+  response: 7EA05621991005B
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS_7E2: 17.125
+  response: 7EA056219910089

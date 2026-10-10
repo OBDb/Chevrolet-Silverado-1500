@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22239B
+test_cases:
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE_COLD_T: 0
+  response: 7E80462239B00
