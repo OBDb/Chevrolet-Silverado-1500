@@ -1,7 +1,7 @@
 command_id: DA40.40.225007
 test_cases:
 - expected_values:
-    SILVERADO1500_TP_RR_DA40: 0
+    SILVERADO1500_TP_RR_DA40: null
   response: |-
     18DAF1401017625007000000
     18DAF1402100000000000000
