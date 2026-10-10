@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22009D|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_TOTAL_FUEL_CONSUMPTION_RATE_7E0: 0.3
+  response: 7E80762009D000F000F
+- expected_values:
+    SILVERADO1500_TOTAL_FUEL_CONSUMPTION_RATE_7E0: 1
+  response: 7E80762009D00320032

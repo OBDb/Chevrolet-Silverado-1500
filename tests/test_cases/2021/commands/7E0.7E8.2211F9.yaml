@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211F9
+test_cases:
+- expected_values:
+    SILVERADO1500_MIS_HISTORY_6: 0
+  response: 7E8056211F90000
+- expected_values:
+    SILVERADO1500_MIS_HISTORY_6: 1
+  response: 7E8056211F90001

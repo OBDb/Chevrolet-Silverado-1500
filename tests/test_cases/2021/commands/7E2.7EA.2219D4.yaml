@@ -1,0 +1,11 @@
+command_id: 7E2.7EA.2219D4
+test_cases:
+- expected_values:
+    SILVERADO1500_CLU_SLIP_C3_RING: 1070.5
+  response: 7EA056219D410BA
+- expected_values:
+    SILVERADO1500_CLU_SLIP_C3_RING: 1096.25
+  response: 7EA056219D41121
+- expected_values:
+    SILVERADO1500_CLU_SLIP_C3_RING: 2607.5
+  response: 7EA056219D428BE

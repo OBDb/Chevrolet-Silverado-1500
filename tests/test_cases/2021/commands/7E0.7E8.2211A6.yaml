@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211A6
+test_cases:
+- expected_values:
+    SILVERADO1500_KNOCK_RETARD: 0
+  response: 7E8046211A600
