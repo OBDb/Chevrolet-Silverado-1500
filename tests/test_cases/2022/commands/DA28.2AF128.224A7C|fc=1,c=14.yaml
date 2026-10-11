@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     SILVERADO1500_BP: 1000
   response: 142AF12804624A7C0A
+- expected_values:
+    SILVERADO1500_BP: 1500
+  response: 142AF12804624A7C0F
+- expected_values:
+    SILVERADO1500_BP: 1700
+  response: 142AF12804624A7C11
+- expected_values:
+    SILVERADO1500_BP: 2000
+  response: 142AF12804624A7C14
+- expected_values:
+    SILVERADO1500_BP: 2300
+  response: 142AF12804624A7C17
+- expected_values:
+    SILVERADO1500_BP: 2500
+  response: 142AF12804624A7C19
+- expected_values:
+    SILVERADO1500_BP: 2600
+  response: 142AF12804624A7C1A

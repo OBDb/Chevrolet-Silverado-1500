@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_EOT_DA11_2: 49
   response: 142AF1110462153E59
+- expected_values:
+    SILVERADO1500_EOT_DA11_2: 101
+  response: 142AF1110462153E8D
