@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_LAT_G: 0
   response: 142AF12805624C2F0000
+- expected_values:
+    SILVERADO1500_LAT_G: -0.0446
+  response: 142AF12805624C2FFFE4
+- expected_values:
+    SILVERADO1500_LAT_G: -0.00637
+  response: 142AF12805624C2FFFFC

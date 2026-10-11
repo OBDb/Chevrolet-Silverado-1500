@@ -1,5 +1,11 @@
 command_id: DA11.2AF111.220010|fc=1,c=14
 test_cases:
 - expected_values:
-    SILVERADO1500_MAF_DA11: 7.32
-  response: 142AF1110562001002DC
+    SILVERADO1500_MAF_DA11: 0
+  response: 142AF111056200100000
+- expected_values:
+    SILVERADO1500_MAF_DA11: 2.55
+  response: 142AF1110562001000FF
+- expected_values:
+    SILVERADO1500_MAF_DA11: 94.74
+  response: 142AF111056200102502

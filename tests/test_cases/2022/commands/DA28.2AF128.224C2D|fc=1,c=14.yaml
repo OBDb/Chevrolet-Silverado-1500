@@ -1,5 +1,11 @@
 command_id: DA28.2AF128.224C2D|fc=1,c=14
 test_cases:
 - expected_values:
+    SILVERADO1500_STEER_ANGLE: 0.242
+  response: 142AF12805624C2D000B
+- expected_values:
+    SILVERADO1500_STEER_ANGLE: -5.06
+  response: 142AF12805624C2DFF1A
+- expected_values:
     SILVERADO1500_STEER_ANGLE: -0.11
   response: 142AF12805624C2DFFFB
