@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221200
+test_cases:
+- expected_values:
+    SILVERADO1500_TOTAL_MISFIRE: 0
+  response: '7E80462120000'
+- expected_values:
+    SILVERADO1500_TOTAL_MISFIRE: 6
+  response: '7E80462120006'

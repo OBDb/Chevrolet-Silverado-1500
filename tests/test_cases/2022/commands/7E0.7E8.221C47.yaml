@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221C47
+test_cases:
+- expected_values:
+    SILVERADO1500_14V_POWER_MODULE_V: 14.1
+  response: 7E804621C478D
+- expected_values:
+    SILVERADO1500_14V_POWER_MODULE_V: 14.2
+  response: 7E804621C478E
+- expected_values:
+    SILVERADO1500_14V_POWER_MODULE_V: 14.5
+  response: 7E804621C4791
+- expected_values:
+    SILVERADO1500_14V_POWER_MODULE_V: 14.6
+  response: 7E804621C4792

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22005C|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_EOT_7E0: 44
+  response: 7E80462005C54
+- expected_values:
+    SILVERADO1500_EOT_7E0: 46
+  response: 7E80462005C56
+- expected_values:
+    SILVERADO1500_EOT_7E0: 47
+  response: 7E80462005C57
+- expected_values:
+    SILVERADO1500_EOT_7E0: 49
+  response: 7E80462005C59
+- expected_values:
+    SILVERADO1500_EOT_7E0: 52
+  response: 7E80462005C5C
+- expected_values:
+    SILVERADO1500_EOT_7E0: 54
+  response: 7E80462005C5E

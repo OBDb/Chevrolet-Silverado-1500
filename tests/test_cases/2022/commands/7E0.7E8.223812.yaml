@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223812
+test_cases:
+- expected_values:
+    SILVERADO1500_COOLING_FAN_CMD: 9.80392
+  response: '7E80462381219'
