@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211EA
+test_cases:
+- expected_values:
+    SILVERADO1500_MISFIRES_C5_CUR_7E0: 0
+  response: 7E8046211EA00
+- expected_values:
+    SILVERADO1500_MISFIRES_C5_CUR_7E0: 2
+  response: 7E8046211EA02
