@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_MIS_HISTORY_5: 0
   response: 7E8056211F80000
+- expected_values:
+    SILVERADO1500_MIS_HISTORY_5: 2
+  response: 7E8056211F80002

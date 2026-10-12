@@ -4,8 +4,17 @@ test_cases:
     SILVERADO1500_IGN_1_V: 0
   response: '7E80462114100'
 - expected_values:
+    SILVERADO1500_IGN_1_V: 13.5
+  response: '7E80462114187'
+- expected_values:
+    SILVERADO1500_IGN_1_V: 13.8
+  response: 7E8046211418A
+- expected_values:
     SILVERADO1500_IGN_1_V: 13.9
   response: 7E8046211418B
+- expected_values:
+    SILVERADO1500_IGN_1_V: 14.1
+  response: 7E8046211418D
 - expected_values:
     SILVERADO1500_IGN_1_V: 14.2
   response: 7E8046211418E
