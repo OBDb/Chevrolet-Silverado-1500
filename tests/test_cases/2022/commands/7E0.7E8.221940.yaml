@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221940
+test_cases:
+- expected_values:
+    SILVERADO1500_ATF_T_VAR_1: 50
+  response: 7E8046219405A
+- expected_values:
+    SILVERADO1500_ATF_T_VAR_1: 51
+  response: 7E8046219405B
+- expected_values:
+    SILVERADO1500_ATF_T_VAR_1: 52
+  response: 7E8046219405C
+- expected_values:
+    SILVERADO1500_ATF_T_VAR_1: 53
+  response: 7E8046219405D

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2236A7|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_AIRFILT_LIFE: 90
+  response: 7E8056236A75A10

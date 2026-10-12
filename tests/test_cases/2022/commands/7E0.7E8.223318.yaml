@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223318
+test_cases:
+- expected_values:
+    SILVERADO1500_EOP_CTRL_SOLENOID_VALVE_CMD: 0
+  response: '7E80462331811'

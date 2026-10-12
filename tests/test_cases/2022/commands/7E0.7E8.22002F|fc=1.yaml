@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22002F|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_FLI: 76.07843
+  response: 7E80462002FC2
+- expected_values:
+    SILVERADO1500_FLI: 79.21569
+  response: 7E80462002FCA
+- expected_values:
+    SILVERADO1500_FLI: 80
+  response: 7E80462002FCC
+- expected_values:
+    SILVERADO1500_FLI: 80.78431
+  response: 7E80462002FCE

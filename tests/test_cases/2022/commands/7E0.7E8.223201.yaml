@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223201
+test_cases:
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 5
+  response: '7E80462320105'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 6
+  response: '7E80462320106'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 7
+  response: '7E80462320107'
