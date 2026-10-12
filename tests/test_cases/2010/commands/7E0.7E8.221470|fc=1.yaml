@@ -4,5 +4,5 @@ test_cases:
     SILVERADO1500_EOP_DA11: 16
   response: '7E80462147004'
 - expected_values:
-    SILVERADO1500_EOP_DA11: 332
-  response: '7E80462147053'
+    SILVERADO1500_EOP_DA11: 344
+  response: '7E80462147056'

@@ -4,5 +4,5 @@ test_cases:
     SILVERADO1500_AC_HIGH_SIDE_P: 72.72
   response: '7E80462156424'
 - expected_values:
-    SILVERADO1500_AC_HIGH_SIDE_P: 175.74
-  response: '7E80462156457'
+    SILVERADO1500_AC_HIGH_SIDE_P: 220.18
+  response: 7E8046215646D
