@@ -105,7 +105,7 @@
   "signals": [
     {"id": "SILVERADO1500_EVAPORATIVE", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "Evaporative emissions purge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1171"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1171"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_EGR_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "Exhaust gas recirculation duty cycle"}
   ]},
@@ -157,11 +157,11 @@
   "signals": [
     {"id": "SILVERADO1500_REMAINING_OIL_LIFE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Remaining oil life"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 56.1, "mul": 22, "div": 100, "unit": "degrees" }, "name": "Knock retard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EA"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EA"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_MISFIRES_C5_CUR_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 5"}
   ]},
@@ -173,11 +173,11 @@
   "signals": [
     {"id": "SILVERADO1500_MIS_CURRENT_7", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire current, cylinder 7"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11ED"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11ED"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_MIS_CURRENT_8", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire current, cylinder 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F8"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F8"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_MIS_HISTORY_5", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 5"}
   ]},
@@ -185,7 +185,7 @@
   "signals": [
     {"id": "SILVERADO1500_MIS_HISTORY_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11FA"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11FA"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_MIS_HISTORY_7", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 7"}
   ]},
@@ -193,7 +193,7 @@
   "signals": [
     {"id": "SILVERADO1500_MIS_HISTORY_8", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TOTAL_MISFIRE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Total misfire"}
   ]},
@@ -217,7 +217,7 @@
   "signals": [
     {"id": "SILVERADO1500_MISFIRES_C2_CUR_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1206"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1206"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_MISFIRES_C1_CUR_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 1"}
   ]},
@@ -225,7 +225,7 @@
   "signals": [
     {"id": "SILVERADO1500_MISFIRES_C3_CUR_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_MISFIRES_C4_CUR_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 4"}
   ]},
@@ -313,7 +313,7 @@
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_8", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1940"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1940"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 1"}
   ]},
@@ -377,7 +377,7 @@
   "signals": [
     {"id": "SILVERADO1500_14V_APM_ENABLE", "path": "Engine", "fmt": { "len": 8, "max": 1.99, "div": 128, "unit": "scalar" }, "name": "14V auxiliary power module enable command"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C47"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C47"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_14V_POWER_MODULE_V", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "14V power module set point voltage"}
   ]},
@@ -409,7 +409,7 @@
   "signals": [
     {"id": "SILVERADO1500_AIR_TEMP_AMBIENT_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2344"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2344"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_EOP_ABS", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil absolute pressure"}
   ]},
