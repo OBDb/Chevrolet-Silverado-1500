@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.222344
 test_cases:
 - expected_values:
-    SILVERADO1500_EOP_ABS: 472
-  response: '7E80462234476'
+    SILVERADO1500_EOP_ABS: 100
+  response: '7E80462234419'
+- expected_values:
+    SILVERADO1500_EOP_ABS: 588
+  response: '7E80462234493'

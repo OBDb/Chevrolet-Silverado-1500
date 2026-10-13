@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222366
+test_cases:
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE_SHUTTER_POS: 0
+  response: '7E80462236600'
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE_SHUTTER_POS: 55.29412
+  response: 7E8046223668D
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE_SHUTTER_POS: 61.96078
+  response: 7E8046223669E
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE_SHUTTER_POS: 100
+  response: 7E804622366FF

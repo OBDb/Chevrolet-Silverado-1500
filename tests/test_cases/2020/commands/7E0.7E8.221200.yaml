@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_TOTAL_MISFIRE: 0
   response: '7E80462120000'
+- expected_values:
+    SILVERADO1500_TOTAL_MISFIRE: 2
+  response: '7E80462120002'
+- expected_values:
+    SILVERADO1500_TOTAL_MISFIRE: 4
+  response: '7E80462120004'

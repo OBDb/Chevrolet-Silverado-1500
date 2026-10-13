@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_ATF_T_VAR_1: 24
   response: '7E80462194040'
+- expected_values:
+    SILVERADO1500_ATF_T_VAR_1: 58
+  response: '7E80462194062'
