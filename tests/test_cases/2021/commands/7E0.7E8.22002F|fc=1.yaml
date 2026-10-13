@@ -4,8 +4,5 @@ test_cases:
     SILVERADO1500_FLI: 30.98039
   response: 7E80462002F4F
 - expected_values:
-    SILVERADO1500_FLI: 33.72549
-  response: 7E80462002F56
-- expected_values:
-    SILVERADO1500_FLI: 34.11765
-  response: 7E80462002F57
+    SILVERADO1500_FLI: 51.37255
+  response: 7E80462002F83
