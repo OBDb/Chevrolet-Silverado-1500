@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22002F|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_FLI: 77.64706
+  response: 7E80462002FC6
+- expected_values:
+    SILVERADO1500_FLI: 80.78431
+  response: 7E80462002FCE
+- expected_values:
+    SILVERADO1500_FLI: 81.17647
+  response: 7E80462002FCF
+- expected_values:
+    SILVERADO1500_FLI: 81.96078
+  response: 7E80462002FD1
+- expected_values:
+    SILVERADO1500_FLI: 82.35294
+  response: 7E80462002FD2
+- expected_values:
+    SILVERADO1500_FLI: 83.13725
+  response: 7E80462002FD4
+- expected_values:
+    SILVERADO1500_FLI: 85.09804
+  response: 7E80462002FD9
+- expected_values:
+    SILVERADO1500_FLI: 98.82353
+  response: 7E80462002FFC

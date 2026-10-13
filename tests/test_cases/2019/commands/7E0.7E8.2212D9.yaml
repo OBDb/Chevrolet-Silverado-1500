@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2212D9
+test_cases:
+- expected_values:
+    SILVERADO1500_TOTAL_KNOCK_RETARD: 0
+  response: 7E8046212D900
+- expected_values:
+    SILVERADO1500_TOTAL_KNOCK_RETARD: 4.5
+  response: 7E8046212D90A
+- expected_values:
+    SILVERADO1500_TOTAL_KNOCK_RETARD: 7.2
+  response: 7E8046212D910
+- expected_values:
+    SILVERADO1500_TOTAL_KNOCK_RETARD: 9
+  response: 7E8046212D914
