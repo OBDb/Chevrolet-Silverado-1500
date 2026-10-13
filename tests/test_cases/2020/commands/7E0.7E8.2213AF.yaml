@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213AF
+test_cases:
+- expected_values:
+    SILVERADO1500_COOLING_FAN_MOTOR_CMD: 0
+  response: 7E8046213AF00
+- expected_values:
+    SILVERADO1500_COOLING_FAN_MOTOR_CMD: 34.11765
+  response: 7E8046213AF57

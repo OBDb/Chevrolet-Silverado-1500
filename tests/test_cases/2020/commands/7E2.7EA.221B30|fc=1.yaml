@@ -1,0 +1,26 @@
+command_id: 7E2.7EA.221B30|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: -1
+  response: 7EA04621B3002
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 1
+  response: 7EA04621B3004
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 3
+  response: 7EA04621B3006
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 4
+  response: 7EA04621B3007
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 5
+  response: 7EA04621B3008
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 6
+  response: 7EA04621B3009
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 8
+  response: 7EA04621B300B
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_7E2: 9
+  response: 7EA04621B300C

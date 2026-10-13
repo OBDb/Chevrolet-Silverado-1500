@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.223201
+test_cases:
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 0
+  response: '7E80462320100'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 1
+  response: '7E80462320101'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 2
+  response: '7E80462320102'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 3
+  response: '7E80462320103'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 4
+  response: '7E80462320104'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 5
+  response: '7E80462320105'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 6
+  response: '7E80462320106'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 7
+  response: '7E80462320107'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 8
+  response: '7E80462320108'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 9
+  response: '7E80462320109'

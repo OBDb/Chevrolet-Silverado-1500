@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_MIS_CURRENT_8: 0
   response: 7E8046211ED00
+- expected_values:
+    SILVERADO1500_MIS_CURRENT_8: 2
+  response: 7E8046211ED02

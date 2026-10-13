@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222364
+test_cases:
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE: 0
+  response: '7E80462236400'
+- expected_values:
+    SILVERADO1500_ACTIVE_GRILLE: 100
+  response: 7E804622364FF
