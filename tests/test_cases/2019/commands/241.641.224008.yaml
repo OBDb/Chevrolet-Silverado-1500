@@ -1,0 +1,5 @@
+command_id: 241.641.224008
+test_cases:
+- expected_values:
+    SILVERADO1500_TID_RL: 2208875
+  response: 641076240080021B46B

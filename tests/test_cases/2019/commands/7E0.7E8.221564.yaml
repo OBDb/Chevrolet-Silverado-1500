@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221564
+test_cases:
+- expected_values:
+    SILVERADO1500_AC_HIGH_SIDE_P: 103.02
+  response: '7E80462156433'
+- expected_values:
+    SILVERADO1500_AC_HIGH_SIDE_P: 179.78
+  response: '7E80462156459'

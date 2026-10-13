@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2212C4
+test_cases:
+- expected_values:
+    SILVERADO1500_INJECTOR_DUTY_CYCLE_BANK_2: 0
+  response: 7E8056212C40000
+- expected_values:
+    SILVERADO1500_INJECTOR_DUTY_CYCLE_BANK_2: 2.61
+  response: 7E8056212C400AE
