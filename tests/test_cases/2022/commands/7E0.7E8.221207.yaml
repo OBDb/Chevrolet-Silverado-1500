@@ -4,5 +4,8 @@ test_cases:
     SILVERADO1500_MISFIRES_C3_CUR_7E0: 0
   response: '7E80462120700'
 - expected_values:
+    SILVERADO1500_MISFIRES_C3_CUR_7E0: 1
+  response: '7E80462120701'
+- expected_values:
     SILVERADO1500_MISFIRES_C3_CUR_7E0: 2
   response: '7E80462120702'

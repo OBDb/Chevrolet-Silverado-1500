@@ -4,17 +4,5 @@ test_cases:
     SILVERADO1500_EOT_CALC: 43
   response: '7E80462115453'
 - expected_values:
-    SILVERADO1500_EOT_CALC: 44
-  response: '7E80462115454'
-- expected_values:
-    SILVERADO1500_EOT_CALC: 47
-  response: '7E80462115457'
-- expected_values:
-    SILVERADO1500_EOT_CALC: 48
-  response: '7E80462115458'
-- expected_values:
-    SILVERADO1500_EOT_CALC: 51
-  response: 7E8046211545B
-- expected_values:
-    SILVERADO1500_EOT_CALC: 53
-  response: 7E8046211545D
+    SILVERADO1500_EOT_CALC: 99
+  response: 7E8046211548B

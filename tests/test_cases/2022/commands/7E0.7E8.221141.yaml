@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.221141
 test_cases:
 - expected_values:
-    SILVERADO1500_IGN_1_V: 14
-  response: 7E8046211418C
-- expected_values:
-    SILVERADO1500_IGN_1_V: 14.1
-  response: 7E8046211418D
+    SILVERADO1500_IGN_1_V: 0
+  response: '7E80462114100'
 - expected_values:
     SILVERADO1500_IGN_1_V: 14.6
   response: '7E80462114192'
