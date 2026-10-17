@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.222345
 test_cases:
 - expected_values:
-    SILVERADO1500_EOP_7E0: 432
-  response: 7E8046223456C
-- expected_values:
-    SILVERADO1500_EOP_7E0: 436
-  response: 7E8046223456D
-- expected_values:
-    SILVERADO1500_EOP_7E0: 444
-  response: 7E8046223456F
-- expected_values:
-    SILVERADO1500_EOP_7E0: 464
-  response: '7E80462234574'
+    SILVERADO1500_EOP_7E0: 0
+  response: '7E80462234500'
 - expected_values:
     SILVERADO1500_EOP_7E0: 468
   response: '7E80462234575'
