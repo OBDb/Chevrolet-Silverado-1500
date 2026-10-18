@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220042
+test_cases:
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 12.425
+  response: '7E8056200423089'
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 12.5
+  response: 7E80562004230D4
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 12.525
+  response: 7E80562004230ED
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 12.55
+  response: '7E8056200423106'
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 12.575
+  response: 7E805620042311F

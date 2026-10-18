@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222344
+test_cases:
+- expected_values:
+    SILVERADO1500_EOP_ABS: 272
+  response: '7E80462234444'
+- expected_values:
+    SILVERADO1500_EOP_ABS: 280
+  response: '7E80462234446'
+- expected_values:
+    SILVERADO1500_EOP_ABS: 284
+  response: '7E80462234447'
+- expected_values:
+    SILVERADO1500_EOP_ABS: 288
+  response: '7E80462234448'
+- expected_values:
+    SILVERADO1500_EOP_ABS: 292
+  response: '7E80462234449'
+- expected_values:
+    SILVERADO1500_EOP_ABS: 296
+  response: 7E8046223444A

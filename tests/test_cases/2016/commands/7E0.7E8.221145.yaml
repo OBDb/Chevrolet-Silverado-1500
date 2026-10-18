@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221145
+test_cases:
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 17
+  response: '7E80462114511'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 19
+  response: '7E80462114513'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 20
+  response: '7E80462114514'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 21
+  response: '7E80462114515'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 22
+  response: '7E80462114516'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 24
+  response: '7E80462114518'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 30
+  response: 7E8046211451E
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 31
+  response: 7E8046211451F
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 153
+  response: '7E80462114599'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 171
+  response: 7E804621145AB
