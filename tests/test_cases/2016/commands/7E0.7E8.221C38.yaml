@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221C38
+test_cases:
+- expected_values:
+    SILVERADO1500_14V_POWER_MODULE: 0
+  response: 7E804621C3800

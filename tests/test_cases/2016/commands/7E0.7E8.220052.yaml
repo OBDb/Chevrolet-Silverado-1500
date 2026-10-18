@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220052
+test_cases:
+- expected_values:
+    SILVERADO1500_ETHANOL_CONTENT_FUEL: 10.19608
+  response: 7E8046200521A
+- expected_values:
+    SILVERADO1500_ETHANOL_CONTENT_FUEL: 10.58824
+  response: 7E8046200521B
