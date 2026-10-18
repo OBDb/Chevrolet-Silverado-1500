@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_MAF: 3.24
   response: '7E8056200100144'
+- expected_values:
+    SILVERADO1500_MAF: 4.56
+  response: 7E80562001001C8

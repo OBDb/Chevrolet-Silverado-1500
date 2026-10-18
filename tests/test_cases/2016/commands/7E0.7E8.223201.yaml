@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_CURRENT_GEAR_VAR_3: 0
   response: '7E80462320100'
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_3: 2
+  response: '7E80462320102'

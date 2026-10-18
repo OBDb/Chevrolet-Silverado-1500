@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_EOP_ABS: 296
   response: 7E8046223444A
+- expected_values:
+    SILVERADO1500_EOP_ABS: 304
+  response: 7E8046223444C
+- expected_values:
+    SILVERADO1500_EOP_ABS: 376
+  response: 7E8046223445E
