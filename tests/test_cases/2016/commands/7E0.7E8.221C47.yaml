@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_14V_POWER_MODULE_V: 12.5
   response: 7E804621C477D
+- expected_values:
+    SILVERADO1500_14V_POWER_MODULE_V: 14.4
+  response: 7E804621C4790

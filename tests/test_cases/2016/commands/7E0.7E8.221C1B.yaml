@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_EOP_CALC: 188
   response: 7E804621C1B2F
+- expected_values:
+    SILVERADO1500_EOP_CALC: 216
+  response: 7E804621C1B36
+- expected_values:
+    SILVERADO1500_EOP_CALC: 252
+  response: 7E804621C1B3F

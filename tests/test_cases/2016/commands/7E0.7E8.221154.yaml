@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221154
 test_cases:
 - expected_values:
+    SILVERADO1500_EOT_CALC: 87
+  response: 7E8046211547F
+- expected_values:
     SILVERADO1500_EOT_CALC: 98
   response: 7E8046211548A
 - expected_values:

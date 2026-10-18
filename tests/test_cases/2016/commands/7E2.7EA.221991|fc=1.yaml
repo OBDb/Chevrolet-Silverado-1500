@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_TC_SLIP_VSS_7E2: 25.75
   response: 7EA0562199100CE
+- expected_values:
+    SILVERADO1500_TC_SLIP_VSS_7E2: 565
+  response: 7EA0562199111A8

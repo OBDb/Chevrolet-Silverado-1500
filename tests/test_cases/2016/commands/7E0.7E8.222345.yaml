@@ -21,3 +21,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_EOP_7E0: 204
   response: '7E80462234533'
+- expected_values:
+    SILVERADO1500_EOP_7E0: 220
+  response: '7E80462234537'
+- expected_values:
+    SILVERADO1500_EOP_7E0: 264
+  response: '7E80462234542'

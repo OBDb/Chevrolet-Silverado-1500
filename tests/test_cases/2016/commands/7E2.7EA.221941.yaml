@@ -1,6 +1,9 @@
 command_id: 7E2.7EA.221941
 test_cases:
 - expected_values:
+    SILVERADO1500_TRANS_ISS: 267.5
+  response: 7EA05621941042E
+- expected_values:
     SILVERADO1500_TRANS_ISS: 1055
   response: 7EA05621941107C
 - expected_values:
