@@ -521,11 +521,11 @@
   "signals": [
     {"id": "SILVERADO1500_TF_T_FLTED_7E2", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, filtered"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "0010"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "0010"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_MAF_DA11", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_FLI_DA11", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -533,7 +533,7 @@
   "signals": [
     {"id": "SILVERADO1500_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "005E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "005E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_FUEL_RATE_DA11", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Fuel consumption rate"}
   ]},
@@ -605,7 +605,7 @@
   "signals": [
     {"id": "SILVERADO1500_EOP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "153E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "153E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_EOT_DA11_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -661,7 +661,7 @@
   "signals": [
     {"id": "SILVERADO1500_DPF_AVG_REGEN_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 2040, "mul": 2040, "div": 65535, "unit": "seconds" }, "name": "Diesel particulate filter, average regeneration duration"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "2344"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "2344"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_EOP_ABS_2", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil absolute pressure sensor"}
   ]},
@@ -741,7 +741,7 @@
   "signals": [
     {"id": "SILVERADO1500_AIRFILT_LIFE_DA11", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Air filter life remaining"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "37A7"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "37A7"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_EOP_DES", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure, desired"}
   ]},
@@ -772,19 +772,19 @@
     {"id": "SILVERADO1500_RL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "SILVERADO1500_RR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4A7C"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4A7C"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_BP", "path": "Engine", "fmt": { "len": 8, "max": 12700, "min": -12800, "mul": 100, "sign": true, "unit": "kilopascal" }, "name": "Brake pressure, raw scale"}
   ]},
-{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720.8739, "min": -720.896, "mul": 220, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4C2F"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4C2F"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"}
   ]},
-{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4C30"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "cmd": {"22": "4C30"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longitudinal acceleration"}
   ]},
@@ -808,11 +808,11 @@
   "signals": [
     {"id": "SILVERADO1500_TP_FL_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "nullmin": 0, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_TP_FR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "nullmin": 0, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "SILVERADO1500_TP_RR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "nullmin": 0, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
