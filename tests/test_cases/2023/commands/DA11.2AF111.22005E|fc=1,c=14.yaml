@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.22005E|fc=1,c=14
+test_cases:
+- expected_values:
+    SILVERADO1500_FUEL_RATE_DA11: 0
+  response: 142AF1110562005E0000
+- expected_values:
+    SILVERADO1500_FUEL_RATE_DA11: 12.25
+  response: 142AF1110562005E00F5
+- expected_values:
+    SILVERADO1500_FUEL_RATE_DA11: 26.9
+  response: 142AF1110562005E021A
