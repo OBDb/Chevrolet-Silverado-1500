@@ -1,6 +1,9 @@
 command_id: 241.641.225007
 test_cases:
 - expected_values:
+    SILVERADO1500_TP_RR: 220
+  response: 641056250070DC0
+- expected_values:
     SILVERADO1500_TP_RR: 222.75
   response: 641056250070DEC
 - expected_values:
