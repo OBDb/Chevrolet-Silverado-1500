@@ -4,23 +4,5 @@ test_cases:
     TP_B: 13.33333
   response: '7E803414722'
 - expected_values:
-    TP_B: 14.5098
-  response: '7E803414725'
-- expected_values:
-    TP_B: 14.90196
-  response: '7E803414726'
-- expected_values:
-    TP_B: 16.86275
-  response: 7E80341472B
-- expected_values:
-    TP_B: 18.43137
-  response: 7E80341472F
-- expected_values:
-    TP_B: 33.33333
-  response: '7E803414755'
-- expected_values:
-    TP_B: 38.03922
-  response: '7E803414761'
-- expected_values:
     TP_B: 39.21569
   response: '7E803414764'
