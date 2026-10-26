@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22005C|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_EOT_7E0: 82
+  response: 7E80462005C7A

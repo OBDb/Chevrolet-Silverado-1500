@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221145
+test_cases:
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 7
+  response: '7E80462114507'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 27
+  response: 7E8046211451B
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 76
+  response: 7E8046211454C
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 153
+  response: '7E80462114599'
+- expected_values:
+    SILVERADO1500_HEATED_OXYGEN_SENS: 239
+  response: 7E804621145EF

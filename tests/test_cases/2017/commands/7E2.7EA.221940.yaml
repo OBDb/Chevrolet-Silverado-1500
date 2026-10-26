@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.221940
+test_cases:
+- expected_values:
+    SILVERADO1500_ATF_T: 58
+  response: 7EA0462194062

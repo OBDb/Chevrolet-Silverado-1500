@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.221941
+test_cases:
+- expected_values:
+    SILVERADO1500_TRANS_ISS: 0
+  response: 7EA056219410000
