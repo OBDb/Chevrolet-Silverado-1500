@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22280D
+test_cases:
+- expected_values:
+    SILVERADO1500_ATF_T_VAR_6: 61
+  response: 7EA0462280D65
