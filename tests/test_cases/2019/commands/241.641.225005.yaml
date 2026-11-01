@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_TP_FL: 231
   response: '641056250050E70'
+- expected_values:
+    SILVERADO1500_TP_FL: 280.5
+  response: '641056250051188'

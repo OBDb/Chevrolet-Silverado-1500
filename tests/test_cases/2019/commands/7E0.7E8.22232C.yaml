@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22232C
 test_cases:
 - expected_values:
+    SILVERADO1500_AIR_TEMP_AMBIENT_2: 22
+  response: 7E80462232C3E
+- expected_values:
     SILVERADO1500_AIR_TEMP_AMBIENT_2: 27
   response: 7E80462232C43
 - expected_values:

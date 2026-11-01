@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_ATF_T: 74
   response: 7EA0462194072
+- expected_values:
+    SILVERADO1500_ATF_T: 87
+  response: 7EA046219407F
