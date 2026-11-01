@@ -509,7 +509,7 @@
   "signals": [
     {"id": "SILVERADO1500_CURRENT_GEAR_7E2", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "280D"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "280D"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2018, 2020], "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_ATF_T_VAR_6", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 6"}
   ]},
