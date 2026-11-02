@@ -11,6 +11,7 @@ supported_commands_by_ecu:
   - 241.641.225008:SILVERADO1500_TP_RL
   "7DF":
   - 7DF.0105
+  - 7DF.010C
   - 7DF.010D
   - 7DF.011F
   - 7DF.012F
