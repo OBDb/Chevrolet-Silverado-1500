@@ -725,7 +725,7 @@
   "signals": [
     {"id": "SILVERADO1500_DPF_REGEN_STS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter, regeneration status"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "34D8"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2027 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "34D8"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "SILVERADO1500_DPF_PRES", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter, pressure"}
   ]},
