@@ -49,7 +49,7 @@
   "signals": [
     {"id": "SILVERADO1500_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "002F"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2018], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2018], "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
