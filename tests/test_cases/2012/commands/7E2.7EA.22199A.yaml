@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22199A
+test_cases:
+- expected_values:
+    SILVERADO1500_CURRENT_GEAR_VAR_2: 1
+  response: 7EA0462199A01

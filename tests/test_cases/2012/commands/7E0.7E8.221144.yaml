@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221144
+test_cases:
+- expected_values:
+    SILVERADO1500_CABIN_AC_HIGH_SIDE_V: 0.96
+  response: '7E80462114430'
+- expected_values:
+    SILVERADO1500_CABIN_AC_HIGH_SIDE_V: 0.98
+  response: '7E80462114431'

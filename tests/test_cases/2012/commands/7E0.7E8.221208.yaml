@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221208
+test_cases:
+- expected_values:
+    SILVERADO1500_MISFIRES_C4_CUR_7E0: 80
+  response: '7E80462120850'
+- expected_values:
+    SILVERADO1500_MISFIRES_C4_CUR_7E0: 86
+  response: '7E80462120856'
+- expected_values:
+    SILVERADO1500_MISFIRES_C4_CUR_7E0: 136
+  response: '7E80462120888'
+- expected_values:
+    SILVERADO1500_MISFIRES_C4_CUR_7E0: 152
+  response: '7E80462120898'
