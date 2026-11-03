@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220010|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_MAF: 5.12
+  response: '7E8056200100200'
+- expected_values:
+    SILVERADO1500_MAF: 5.52
+  response: '7E8056200100228'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222020
+test_cases:
+- expected_values:
+    SILVERADO1500_MIL_STAT: 192
+  response: 7E804622020C0
