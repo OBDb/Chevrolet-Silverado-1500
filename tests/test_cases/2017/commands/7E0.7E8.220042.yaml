@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_M_CTRL_MODULE_V: 0.199
   response: 7E80562004200C7
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 14.218
+  response: 7E805620042378A
+- expected_values:
+    SILVERADO1500_M_CTRL_MODULE_V: 14.244
+  response: 7E80562004237A4

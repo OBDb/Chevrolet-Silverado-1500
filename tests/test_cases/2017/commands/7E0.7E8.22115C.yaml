@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     SILVERADO1500_EOP_2: -0.6
   response: 7E80462115C23
+- expected_values:
+    SILVERADO1500_EOP_2: 32.4
+  response: 7E80462115C5A
+- expected_values:
+    SILVERADO1500_EOP_2: 34.2
+  response: 7E80462115C5D

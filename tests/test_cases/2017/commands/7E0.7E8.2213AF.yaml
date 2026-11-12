@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_COOLING_FAN_MOTOR_CMD: 0
   response: 7E8046213AF00
+- expected_values:
+    SILVERADO1500_COOLING_FAN_MOTOR_CMD: 9.80392
+  response: 7E8046213AF19
