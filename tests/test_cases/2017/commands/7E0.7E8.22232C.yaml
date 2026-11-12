@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_AIR_TEMP_AMBIENT_2: 14
   response: 7E80462232C36
+- expected_values:
+    SILVERADO1500_AIR_TEMP_AMBIENT_2: 22
+  response: 7E80462232C3E

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_MIL_CAUSE: 49
   response: 7E80462135F31
+- expected_values:
+    SILVERADO1500_MIL_CAUSE: 61
+  response: 7E80462135F3D

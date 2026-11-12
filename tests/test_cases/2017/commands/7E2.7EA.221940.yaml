@@ -1,5 +1,14 @@
 command_id: 7E2.7EA.221940
 test_cases:
 - expected_values:
+    SILVERADO1500_ATF_T: 41
+  response: 7EA0462194051
+- expected_values:
+    SILVERADO1500_ATF_T: 45
+  response: 7EA0462194055
+- expected_values:
+    SILVERADO1500_ATF_T: 46
+  response: 7EA0462194056
+- expected_values:
     SILVERADO1500_ATF_T: 58
   response: 7EA0462194062
