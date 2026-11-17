@@ -537,7 +537,7 @@
   "signals": [
     {"id": "SILVERADO1500_FUEL_RATE_DA11", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Fuel consumption rate"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "0078"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "0078"}, "freq": 1,
   "signals": [
     {"id": "SILVERADO1500_DPF_EGT_4", "path": "Engine", "fmt": {"bix": 56, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 4"}
   ]},
@@ -808,11 +808,11 @@
   "signals": [
     {"id": "SILVERADO1500_TP_FL_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "nullmin": 0, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
   "signals": [
     {"id": "SILVERADO1500_TP_FR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "nullmin": 0, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
   "signals": [
     {"id": "SILVERADO1500_TP_RR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "nullmin": 0, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
