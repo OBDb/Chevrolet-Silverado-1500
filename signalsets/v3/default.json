@@ -65,7 +65,7 @@
   "signals": [
     {"id": "SILVERADO1500_EOT_7E0", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "005E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "005E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Fuel consumption rate"}
   ]},
@@ -85,7 +85,7 @@
   "signals": [
     {"id": "SILVERADO1500_HEATED_OXYGEN_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "millivolts" }, "name": "Heated oxygen sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2013, 2014, 2015], "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_EGR_V", "path": "Engine", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Exhaust gas recirculation voltage"}
   ]},
@@ -281,35 +281,35 @@
   "signals": [
     {"id": "SILVERADO1500_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 8, "max": 515.1, "mul": 2.02, "unit": "psi" }, "name": "Air conditioning high side pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "162F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1630"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1630"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1631"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1632"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1632"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1633"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_5", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1634"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1634"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_6", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1635"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1635"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_7", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 7"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1636"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1636"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_BALANCE_RATE_CYL_8", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 8"}
   ]},
@@ -393,11 +393,11 @@
   "signals": [
     {"id": "SILVERADO1500_CRUISE_CTRL_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "20AC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "20AC"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_FUEL_INJECTION_C1_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "20B3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "20B3"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "SILVERADO1500_FUEL_INJECTION_C8_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 8"}
   ]},

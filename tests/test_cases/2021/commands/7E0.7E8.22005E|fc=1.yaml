@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22005E|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_FUEL_RATE: 0
+  response: 7E80562005E0000
