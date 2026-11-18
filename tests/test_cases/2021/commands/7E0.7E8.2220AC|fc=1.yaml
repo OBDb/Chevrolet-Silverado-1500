@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2220AC|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_FUEL_INJECTION_C1_7E0: 0
+  response: 7E8056220AC0000

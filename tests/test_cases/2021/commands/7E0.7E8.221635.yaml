@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221635
+test_cases:
+- expected_values:
+    SILVERADO1500_BALANCE_RATE_CYL_7: 0
+  response: '7E8056216358000'
