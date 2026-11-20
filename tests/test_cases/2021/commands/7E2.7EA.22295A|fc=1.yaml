@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22295A|fc=1
+test_cases:
+- expected_values:
+    SILVERADO1500_TF_T_FLTED_7E2: 59
+  response: 7EA0462295A63
+- expected_values:
+    SILVERADO1500_TF_T_FLTED_7E2: 60
+  response: 7EA0462295A64

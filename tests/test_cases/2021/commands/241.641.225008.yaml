@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     SILVERADO1500_TP_RL: 247.5
   response: 641056250080F78
+- expected_values:
+    SILVERADO1500_TP_RL: 250.25
+  response: 641056250080FA4
