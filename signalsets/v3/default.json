@@ -505,7 +505,7 @@
   "signals": [
     {"id": "SILVERADO1500_CLU_SLIP_C3_RING", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, AT C3, ring"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2021], "from": 2023 },
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_CURRENT_GEAR_7E2", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear", "suggestedMetric": "gear"}
   ]},
@@ -517,7 +517,7 @@
   "signals": [
     {"id": "SILVERADO1500_CLU_SLIP_C1_RING", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, AT C1, ring"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "295A"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021], "from": 2023 },
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "295A"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2023 },
   "signals": [
     {"id": "SILVERADO1500_TF_T_FLTED_7E2", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, filtered"}
   ]},
